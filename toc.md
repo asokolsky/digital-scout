@@ -1,5 +1,21 @@
 # Table of Contents
 
+## Computing
+
+Why relevant: ubiquity
+
+Skills:
+
+* gauge computer performance, identify a bottleneck
+* use command line
+* use pipe to connect output of one command with input of another
+* create a script
+* edit a file in a terminal
+* use git for version control of the text documents
+* static web site generation
+
+[more](./Computing/)
+
 ## Internet
 
 Why relevant: ubiquity
@@ -10,17 +26,13 @@ Goals:
 * set-up a game server
 * play a video file from your computer on your appleTV.
 
-Skills:
-
-* use command line
-* create a script
-* edit a file in a terminal
-
 Terminology:
 
 * Endpoint
 * Internet Address
 * Protocols: DNS, DHCP, HTTP
+
+[more](./Internet/)
 
 ## Cryptography
 
@@ -32,7 +44,6 @@ Why relevant: ubiquity
 Goals:
 
 * setup passkeys
-
 
 ## Electronics
 
@@ -49,6 +60,8 @@ Tasks to accomplish:
 Skills:
 
 * use amp/volt/ohm meter
+
+[more](./Elecronics/)
 
 ## Business and Accounting
 

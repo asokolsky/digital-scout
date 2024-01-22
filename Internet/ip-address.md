@@ -11,5 +11,6 @@ which is obsoleted by [RFC 6761 Special-Use Domain Names](https://datatracker.ie
 
 Also consider for routing:
 
+* [mac address](https://en.wikipedia.org/wiki/MAC_address)
 * [subnet mask](https://en.wikipedia.org/wiki/Subnet)
 * [default gateway](https://en.wikipedia.org/wiki/Default_gateway)

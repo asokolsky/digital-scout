@@ -4,6 +4,10 @@
 
 Provide the citizenry with basic survival skills in the digital world.
 
+## Table of Contents
+
+[Table of Contents](./toc.md)
+
 ## License
 
 This work is released under
