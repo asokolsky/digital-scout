@@ -20,7 +20,6 @@ Terminology:
 
 * Endpoint
 * Internet Address
-* RFC
 * Protocols: DNS, DHCP, HTTP
 
 ## Cryptography
