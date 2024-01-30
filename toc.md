@@ -11,8 +11,6 @@ Skills:
 * use pipe to connect output of one command with input of another
 * create a script
 * edit a file in a terminal
-* use git for version control of the text documents
-* static web site generation
 
 [more](./Computing/)
 
@@ -33,6 +31,14 @@ Terminology:
 * Protocols: DNS, DHCP, HTTP
 
 [more](./Internet/)
+
+## Collaboration
+
+Goals:
+
+* use git for version control of the text documents
+* static web site generation
+* collaborate with a team on a website
 
 ## Cryptography
 

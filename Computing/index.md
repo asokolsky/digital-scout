@@ -8,10 +8,8 @@ Skills:
 * use pipe to connect output of one command with input of another
 * create a script
 * edit a file in a terminal
-* install vscode
-* edit markdown file
-* use git for version control of the text documents
-* static web ste generation
+
+[Tasks](./tasks.md)
 
 ## Architecture
 
@@ -49,3 +47,15 @@ wiki:
 * [command line interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters)
 
 [zsh](https://en.wikipedia.org/wiki/Z_shell) made to all the operating systems!
+
+## Computing Tasks
+
+### Identify CPU Consumption
+
+### Identify RAM Consumption
+
+### Identify Disk Consumption
+
+### Identify a Bottleneck
+
+When browsing web, playing video, playing a game.
