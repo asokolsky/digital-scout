@@ -31,6 +31,8 @@ E.g. consider
 [RFC 1918 Address Allocation for Private Internets](https://datatracker.ietf.org/doc/html/rfc1918)
 which is obsoleted by [RFC 6761 Special-Use Domain Names](https://datatracker.ietf.org/doc/html/rfc6761)
 
+[Special use addresses](https://en.wikipedia.org/wiki/Internet_Protocol_version_4#Special-use_addresses).
+
 Also consider for routing:
 
 * [mac address](https://en.wikipedia.org/wiki/MAC_address)
