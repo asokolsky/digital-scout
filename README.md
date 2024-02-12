@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Provide the citizenry with basic survival skills in the digital world.
+Provide the citizenry with the basic survival skills in the digital world,
+necessary to apply critical analysis to the news.
 
 
 [Table of Contents](./toc.md)
