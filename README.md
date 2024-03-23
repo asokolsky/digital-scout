@@ -2,13 +2,11 @@
 
 ## Purpose
 
-Provide the citizenry with basic survival skills in the digital world.
+Provide the citizenry with the basic survival skills in the digital world,
+necessary to apply critical analysis to the news.
 
-## Table of Contents
 
 [Table of Contents](./toc.md)
 
-## License
 
-This work is released under
-[CC BY](https://creativecommons.org/licenses/by/4.0/) License.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
