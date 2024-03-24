@@ -20,7 +20,7 @@ RFCs:
 * [LAN](https://en.wikipedia.org/wiki/Local_area_network)
 * [ISP](https://en.wikipedia.org/wiki/Internet_service_provider)
 
-## IP address and Routing
+## IP Address and Routing
 
 [IPv4 address](https://en.wikipedia.org/wiki/Internet#IP_Addresses)
 to be precise.
