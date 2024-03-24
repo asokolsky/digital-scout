@@ -6,7 +6,6 @@ Goal:
 
 * deliver repeatable business results
 
-
 Skills:
 
 * [soft skills](https://en.wikipedia.org/wiki/Soft_skills), note the origin
