@@ -44,8 +44,7 @@ Trends:
 ## Graphical User Interface
 
 [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
-
-Establish terminology:
+terminology:
 
 * cursor vs caret
 * icon
@@ -71,7 +70,8 @@ Widgets / controls:
 The above terminology is fully applicable to both native and web applications.
 
 More in depth:
-[Sus Lundgren. What makes a GUI good?](https://studylib.net/doc/5460687/).
+[Sus Lundgren. What makes a GUI good?](https://studylib.net/doc/5460687/)
+
 Check-up: give example how cursor is used to communicate pliancy.
 
 Trends:
@@ -116,6 +116,10 @@ Benefits:
 * compartmentalization
 * (mutual) protection
 
+Process states:
+
+[![process states](https://raw.githubusercontent.com/abarrak/linux-sysops-handbook/main/images/process-states.png)](https://github.com/abarrak/linux-sysops-handbook/blob/main/README.md)
+
 ## OS Concepts: File System
 
 Commonly used:
@@ -129,6 +133,16 @@ default choice in MacOS
 * [fat32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), better yet
 [exFAT](https://en.wikipedia.org/wiki/ExFAT) - good choice when you want for
 your USB drive to be portable across all the computing devices.
+
+### Linux File Permissions
+
+[Linux file permissions explained](https://www.redhat.com/sysadmin/linux-file-permissions-explained)
+
+### Linux File System Hierarchy
+
+[Filesystem Hierarchy Standard](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
+
+[![file hierarchy](https://raw.githubusercontent.com/abarrak/linux-sysops-handbook/main/images/linux-file-system.png)](https://github.com/abarrak/linux-sysops-handbook/blob/main/README.md#storage)
 
 ## Command Line, Shell and Text Processing
 
