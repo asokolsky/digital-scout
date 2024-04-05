@@ -37,7 +37,9 @@ Each [process](https://en.wikipedia.org/wiki/Process_(computing)) has:
 
 File systems:
 
-* [ntfs](https://en.wikipedia.org/wiki/NTFS)
+* [Apple File System](https://en.wikipedia.org/wiki/Apple_File_System)
+* [NTFS](https://en.wikipedia.org/wiki/NTFS)
+* [EXT4](https://en.wikipedia.org/wiki/Ext4)
 
 ## Command Line, Shell and Text Processing
 
@@ -62,4 +64,5 @@ When browsing web, playing video, playing a game.
 
 ## More
 
-[Cryptography](../Cryptography/)
+* More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
+* continue to [Cryptography](../Cryptography/)
