@@ -27,5 +27,7 @@ P&L report
 
 ## Investments
 
-* Debt and equity as fundamental investment instruments
-* Derivative instruments
+Investment Instruments:
+
+* Fundamental instruments: Debt and Equity, bonds and stocks
+* Derivative instruments: indexes, mutual funds, options.

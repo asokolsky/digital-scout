@@ -2,6 +2,11 @@
 
 [wiki](https://en.wikipedia.org/wiki/Cryptography)
 
+Applications for:
+
+* Authentication
+* Authorization.
+
 ## Hash Functions
 
 [Hash functions](https://en.wikipedia.org/wiki/Cryptography#Cryptographic_hash_functions)
@@ -39,4 +44,4 @@ Cryptography
 [Public Key](https://en.wikipedia.org/wiki/Cryptography#Public-key_cryptography)
 Cryptography
 
-![Shared-key cryptography](https://upload.wikimedia.org/wikipedia/commons/7/78/Private_key_signing.svg)
+![Private-key signing](https://upload.wikimedia.org/wikipedia/commons/7/78/Private_key_signing.svg)

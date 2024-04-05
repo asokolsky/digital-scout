@@ -36,6 +36,7 @@ Terminology:
 
 Why relevant: ubiquity
 
+* one-way hash
 * shared key
 * public key
 
@@ -79,5 +80,9 @@ Skills:
 Why relevant: ubiquity of actors
 
 Goal: understand why "software is eating the world".
+
+* Business metrics, e.g. revenue vs profit, profit margin
+* financial statements: balance sheet, income statement
+* accounting equation
 
 [more](Business/)
