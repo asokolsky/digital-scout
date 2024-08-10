@@ -12,7 +12,7 @@ Skills:
 * install vscode
 * edit markdown file
 * use git for version control of the text documents
-* static web ste generation
+* static web site generation
 
 ## Soft Skills
 
@@ -24,19 +24,16 @@ career management and intercultural fluency.
 
 Also:
 
-* listening skills
+* [active listening](https://en.wikipedia.org/wiki/Active_listening)
 * communication: written, speaking in a meeting
-* persuasion
+* [persuasion](https://en.wikipedia.org/wiki/Persuasion)
+* [time management](https://en.wikipedia.org/wiki/Time_management)
 
 ## Team
 
-* team structure and dynamics, from a
+Team structure and dynamics, from a
 [collective](https://en.wikipedia.org/wiki/Artist_collective) to a
 [benevolent dictatorship](https://en.wikipedia.org/wiki/Benevolent_dictatorship).
-
-## Collaboration Workflow
-
-* request/issue database
 
 ## Artifacts and Formats
 
@@ -52,10 +49,33 @@ Also:
 General problem of
 [version control](https://en.wikipedia.org/wiki/Version_control)
 
-## git, in isolation
+## Standalone git Repo
 
 * version tree
 
-## git, collaboration
+## Hosted git Repo as a Collaboration Tool
 
+* [hosting git repo in the cloud](https://asokolsky.github.io/apps/git/hosting.html)
 * pull request
+* [github action](https://github.com/features/actions)
+
+## Collaboration Workflow
+
+* [bug tracking](https://en.wikipedia.org/wiki/Bug_tracking_system) /
+[issue database](https://en.wikipedia.org/wiki/Issue_tracking_system);
+* git repository, self-hosted or [hosted in the cloud](https://asokolsky.github.io/apps/git/hosting.html).
+
+The above are used in concert to achieve
+[traceability](https://en.wikipedia.org/wiki/Requirements_traceability):
+
+* direct: Requirements -> Design -> Implementation
+* reverse: Implementation -> Design -> Requirements
+
+## Static Website, Collaboration Example
+
+* [GitHub Pages](https://docs.github.com/en/pages/quickstart)
+* [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+* [BitBucket Pages](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/)
+
+Both use [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)), one of many
+[static site generators](https://jamstack.org/generators/).
