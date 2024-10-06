@@ -16,6 +16,10 @@ RFCs:
 
 ## Terms
 
+* [URL](https://en.wikipedia.org/wiki/URL) vs
+[URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) vs
+[URN](https://en.wikipedia.org/wiki/Uniform_Resource_Name) -
+[examples](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier#Example_URIs)
 * [top level domains](https://en.wikipedia.org/wiki/Top-level_domain)
 * [LAN](https://en.wikipedia.org/wiki/Local_area_network)
 * [ISP](https://en.wikipedia.org/wiki/Internet_service_provider)
@@ -48,7 +52,6 @@ Problems VPN solves:
 
 * ISP snooping, selling your browsing history -
 [overview of solutions](https://www.comparitech.com/blog/vpn-privacy/stop-your-isp-from-snooping-on-you/)
-*
 * remote access to home/business LAN
 
 ## Protocols

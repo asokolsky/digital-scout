@@ -26,8 +26,9 @@ Goals:
 
 Terminology:
 
+* URL
 * Endpoint
-* Internet Address
+* IP Address
 * Protocols: DNS, DHCP, HTTP
 
 [more](Internet/)
