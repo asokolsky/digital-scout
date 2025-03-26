@@ -1,5 +1,22 @@
 # Table of Contents
 
+## Physics and Math
+
+Why relevant: foundational
+
+Topics:
+
+* Laws of physics - ubiquity of application (or lack thereof)
+* [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
+* [thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
+* elecrivity, magnetism, electromagnetic field
+* ohm's law
+* limits, derivatives
+* [fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)
+* [particles vs waves](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)
+
+[more](Physics/)
+
 ## Computing
 
 Why relevant: ubiquity
@@ -84,6 +101,7 @@ Goal: understand why "software is eating the world".
 
 * Business metrics, e.g. revenue vs profit, profit margin
 * financial statements: balance sheet, income statement
+* tax rate: marginal vs effecive
 * accounting equation
 
 [more](Business/)
