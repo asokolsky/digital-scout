@@ -18,13 +18,41 @@ Computers have:
 * RAM
 * Persistent storage
 
-Examples of computers: your laptop, your phone, your watch, climate controller,
-smart lock.
+Here are few examples (order of magnitude):
+
+Computer|Power Consumption (W)
+--------|---------------------
+server in a data center|1000
+gaming laptop|100
+home router|10
+access point|10
+tablet|10
+smart phone|1-10
+smart watch|1
+climate controller|0.1
+smart lock|0.1
+
+Check-up: what does "order of magnitude" mean?
+
+Check-up: justify (not) buying a new laptop for green purposes.
+
+## Buses
+
+[Bus](https://en.wikipedia.org/wiki/Bus_(computing)) is used to connect computing pieces together, can be serial or parallel.
+
+* [PCI Express](https://en.wikipedia.org/wiki/PCI_Express)
+* [I2C](https://en.wikipedia.org/wiki/I%C2%B2C)
+* [USB](https://en.wikipedia.org/wiki/USB)
+* [thunderbolt](https://en.wikipedia.org/wiki/Thunderbolt_(interface))
+* [HDMI](https://en.wikipedia.org/wiki/HDMI)
+
+Check-up: how is the webcam in your laptop connected to the laptop?
+
+Check-up: is USB serial or parallel bus?  HDMI?
 
 ## Operating System
 
-What differentiates a true computer and a controller.
-We focus on the former unless specified otherwise.
+[Operating system](https://en.wikipedia.org/wiki/Operating_system) differentiates a true computer and a controller. We focus on the former unless specified otherwise.
 
 Example OSs:
 
@@ -43,8 +71,7 @@ Trends:
 
 ## Graphical User Interface
 
-[GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
-terminology:
+[GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) terminology:
 
 * cursor vs caret
 * icon
@@ -55,7 +82,7 @@ terminology:
 * menubar
 * pull down menu
 * Popup menu
-* dialog box
+* dialog box, app/system modal
 * pop up
 
 Widgets / controls:
@@ -69,8 +96,7 @@ Widgets / controls:
 
 The above terminology is fully applicable to both native and web applications.
 
-More in depth:
-[Sus Lundgren. What makes a GUI good?](https://studylib.net/doc/5460687/)
+More in depth: [Sus Lundgren. What makes a GUI good?](https://studylib.net/doc/5460687/)
 
 Check-up: give example how cursor is used to communicate pliancy.
 
@@ -105,11 +131,12 @@ Process is NOT a window.
 Each [process](https://en.wikipedia.org/wiki/Process_(computing)) has:
 
 * an ID
+* parent, and (maybe) children
 * state
 * command line
 * environment
+* cwd
 * threads
-* parent, and (maybe) children
 
 Benefits:
 
@@ -150,6 +177,7 @@ your USB drive to be portable across all the computing devices.
 
 Why use command line:
 
+* efficient use of computer resources
 * (much higher) productivity
 * allows for custom scripts/actions
 
@@ -158,13 +186,11 @@ Why use command line:
 [zsh](https://en.wikipedia.org/wiki/Z_shell) made to all the operating systems:
 
 * native on MacOS and Linux
-* [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on
-Windows
+* [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on Windows.
 
-## Command Line Use Examples
+### Command Line Use Examples
 
-* [emacs](https://asokolsky.github.io/apps/emacs/) and
-[vi](https://asokolsky.github.io/apps/vi.html)
+* Editors, e.g. [vi](https://asokolsky.github.io/apps/vi.html), `nano`, [emacs](https://asokolsky.github.io/apps/emacs/)
 * [make and Makefile](https://asokolsky.github.io/apps/make/)
 
 ## File Formats
@@ -183,7 +209,17 @@ formats, including most important ones
 [HTML](https://en.wikipedia.org/wiki/HTML) and
 [markdown](https://en.wikipedia.org/wiki/Markdown).
 
-## More
+Audio: wav, mp3
+
+Video: mjpg, mkv
+
+File formats are subject to fashion:
+
+* out: xml
+* in: yaml, json
+* timeless: csv
+
+## More Reading
 
 * More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
 * continue to [Cryptography](../Cryptography/)
