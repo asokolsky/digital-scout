@@ -1,10 +1,14 @@
 # Collaboration
 
-Why relevant: ubiquity
+Can we scale up the results by collaborating?
 
-Goal:
+Why relevant: ubiquity.
 
-* deliver repeatable business results
+Success scenarios: engineering disciplines, high tech businesses, teams of script writers for serials.
+
+Failure scenarios: classical and modern literature, art.
+
+Goal: deliver repeatable business results
 
 Skills:
 
@@ -31,25 +35,35 @@ Also:
 
 ## Team
 
-Team structure and dynamics, from a
-[collective](https://en.wikipedia.org/wiki/Artist_collective) to a
-[benevolent dictatorship](https://en.wikipedia.org/wiki/Benevolent_dictatorship).
+Team structure and dynamics, from a [collective](https://en.wikipedia.org/wiki/Artist_collective) to a [benevolent dictatorship](https://en.wikipedia.org/wiki/Benevolent_dictatorship).
 
 ## Artifacts and Formats
 
 * binary vs text-based
 * presentation vs semantics
 
+Engineering choice: test-based, semantics-oriented.
+
+Benefits - lends itself to better:
+
+* version control
+* search
+
+Presentation is controlled via [style](https://en.wikipedia.org/wiki/Style_sheet_(desktop_publishing)) [sheet](https://en.wikipedia.org/wiki/Style_sheet_(web_development)).
+
 ### Markdown
 
-[Markdown](https://en.wikipedia.org/wiki/Markdown)
+[Markdown](https://en.wikipedia.org/wiki/Markdown) is a kind of [markup](https://en.wikipedia.org/wiki/Markup_language).
 
 ## Version Control
 
-General problem of
-[version control](https://en.wikipedia.org/wiki/Version_control)
+General problem of [version control](https://en.wikipedia.org/wiki/Version_control) and [git](https://en.wikipedia.org/wiki/Git) as a de-facto standard.
 
-## Standalone git Repo
+[Atlassian tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control).
+
+## (Standalone) git Repo
+
+git [repository](https://en.wikipedia.org/wiki/Repository_(version_control)) can be visualized as a set of sheets of paper (branches), each sheet of paper holding all the files.
 
 * version tree
 
@@ -73,9 +87,8 @@ The above are used in concert to achieve
 
 ## Static Website, Collaboration Example
 
+[Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)) is one of many [static site generators](https://jamstack.org/generators/).
+
 * [GitHub Pages](https://docs.github.com/en/pages/quickstart)
 * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 * [BitBucket Pages](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/)
-
-Both use [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)), one of many
-[static site generators](https://jamstack.org/generators/).
