@@ -6,7 +6,7 @@ The rug is dusty.  Suggest a few ways to get rid of the dust.  Explain why it wo
 
 ### Pull the car out
 
-The car is stuck in a mud.  The force requried to pull the car out is much larger than your weight.  All you have is:
+The car is stuck in a mud.  The force required to pull the car out is much larger than your weight.  All you have is:
 
 * a rigid rope, e.g. a steel cable,
 * an X-shaped tire wrench and

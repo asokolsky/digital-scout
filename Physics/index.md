@@ -26,9 +26,9 @@ Telescope, microscope.
 
 Lenses, prism
 
-## Elecricity & Magnetism
+## Electricity & Magnetism
 
-elecrivity, magnetism, electromagnetic field
+electricity, magnetism, electromagnetic field
 
 ohm's law
 

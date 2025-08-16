@@ -69,6 +69,11 @@ Trends:
 * immutability
 * move to cloud
 
+### OS Architecture
+
+[![OS Architecture](os-architecture.jpeg)]()
+
+
 ## Graphical User Interface
 
 [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) terminology:
@@ -147,6 +152,12 @@ Process states:
 
 [![process states](https://raw.githubusercontent.com/abarrak/linux-sysops-handbook/main/images/process-states.png)](https://github.com/abarrak/linux-sysops-handbook/blob/main/README.md)
 
+Note: major engineering concept: [state machine](https://en.wikipedia.org/wiki/Finite-state_machine).
+
+Process memory map:
+
+[![Process memory map](https://upload.wikimedia.org/wikipedia/commons/9/93/Computer-memory-map.png)](https://en.wikipedia.org/wiki/Imperative_programming)
+
 ## OS Concepts: File System
 
 Commonly used:
@@ -221,5 +232,11 @@ File formats are subject to fashion:
 
 ## More Reading
 
+[Programming](Programming/)
+
+Elsewhere:
+
 * More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
-* continue to [Cryptography](../Cryptography/)
+
+
+Continue to [Cryptography](../Cryptography/)

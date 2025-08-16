@@ -1,0 +1,37 @@
+[tools]
+java = 'latest'
+
+# Define variables for input and output directories
+[vars]
+SRC_DIR = 'src'
+OUT_DIR = 'out'
+JAR_FILE = '{{vars.OUT_DIR}}/java-animals.jar'
+MANIFEST_FILE = '{{vars.OUT_DIR}}/manifest.mf'
+
+# Define a task for compiling Java source files
+[tasks.compile]
+run = "javac -d {{vars.OUT_DIR}} {{vars.SRC_DIR}}/*.java"
+# Add dependencies if needed, e.g., if you have external libraries
+# depends = ["install_dependencies"]
+
+# Define a task for creating the JAR file
+[tasks.jar]
+depends = ["compile"] # Ensure compilation happens before JAR creation
+run = "jar -cvf {{vars.JAR_FILE}} -e Main -C {{vars.OUT_DIR}}"
+
+# Define a task to execute the program
+[tasks.exe]
+depends = ["jar"] # Ensure the JAR is created
+description = "Run the Java project"
+#run = '''
+#cat <<EOF > {{vars.MANIFEST_FILE}}
+#Manifest-Version: 1.0
+#Main-Class: Main
+#EOF
+#java -jar {{vars.JAR_FILE}} --manifest={{vars.MANIFEST_FILE}} Main Main.class
+#'''
+
+# Define a task to clean the artifacts
+[tasks.clean]
+description = "Clean up compiled class files"
+run = "rm -rf {{vars.OUT_DIR}}"

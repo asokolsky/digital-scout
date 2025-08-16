@@ -81,7 +81,7 @@ https://en.wikipedia.org/wiki/Wi-Fi
 
 ## IoT
 
-https://en.wikipedia.org/wiki/Internet_of_things
+[Internet of things](https://en.wikipedia.org/wiki/Internet_of_things)
 
 ## Internet Tasks
 
@@ -92,7 +92,6 @@ https://en.wikipedia.org/wiki/Internet_of_things
 * play a video file from your computer on your appleTV.
 * configure an IoT device to use newly setup WiFi access point
 * use VPN
-
 
 ## In the News
 
