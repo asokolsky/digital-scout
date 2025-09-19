@@ -8,6 +8,7 @@
 [profit margin](https://en.wikipedia.org/wiki/Profit_margin)
 * [debt](https://en.wikipedia.org/wiki/Debt)
 * [equity](https://en.wikipedia.org/wiki/Equity_(finance))
+* and [liquidation preference](https://www.investopedia.com/terms/l/liquidation-preference.asp)
 * [business model](https://en.wikipedia.org/wiki/Business_model)
 
 ## Accounting
@@ -27,7 +28,4 @@ P&L report
 
 ## Investments
 
-Investment Instruments:
-
-* Fundamental instruments: Debt and Equity, bonds and stocks
-* Derivative instruments: indexes, mutual funds, options.
+[Investments](investments.html)
