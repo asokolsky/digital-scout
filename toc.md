@@ -93,7 +93,7 @@ Skills:
 
 [more](Elecronics/)
 
-## Business. Accounting, Investments
+## Money, Business, Accounting, Investments
 
 Why relevant: ubiquity of actors
 
@@ -101,7 +101,7 @@ Goal: understand why "software is eating the world".
 
 * Business metrics, e.g. revenue vs profit, profit margin
 * financial statements: balance sheet, income statement
-* tax rate: marginal vs effecive
+* tax rate: marginal vs effective
 * accounting equation
 
 [more](Business/)
