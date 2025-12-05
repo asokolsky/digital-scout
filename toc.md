@@ -2,14 +2,14 @@
 
 ## Physics and Math
 
-Why relevant: foundational
+Why relevant: foundational for both laws of nature and the scientific methods used to gain konwledge of such laws.
 
 Topics:
 
 * Laws of physics - ubiquity of application (or lack thereof)
 * [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
 * [thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
-* elecrivity, magnetism, electromagnetic field
+* elecricity, magnetism, electromagnetic field
 * ohm's law
 * limits, derivatives
 * [fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)

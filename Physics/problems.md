@@ -31,3 +31,15 @@ Assuming you wear clothing around your waist with en elastic rubber band.  Where
 Relies on understanding gained from the 'Rubber band marks' problem.
 
 You need to bandage a wound exerting disproportionally high pressure on one point.  How would you do it?  You have a few rolls of cotton bandage.
+
+### Power Delivery
+
+Apple power delivery standard (used to charge or power e.g. a laptop via a USB-C cable) increases the voltage supplied to the connected device.  What's the benefit in increasing the voltage?  Why can't we use standard USB 5V to charge laptop battery or power laptop?
+
+## Even More Practival Problems (Know Your Formulas)
+
+### Collision of two balls
+
+A ball of mass `m`, travelling at speed `v`, hits on-center a resting ball of mass `M`.  How will the balls move after the collision?  Which assumptions did you make?
+
+Expore boundary cases.  "physical sense"?

@@ -22,13 +22,17 @@ Lamenar and turbulent flow.
 
 ### Optics
 
-Telescope, microscope.
+Lenses, prism.
 
-Lenses, prism
+Telescope, microscope, chromatic aberrations.
+
+Interference.
 
 ## Electricity & Magnetism
 
-electricity, magnetism, electromagnetic field
+electricity, electric charge, electric field, capacitor.
+
+magnetism, electromagnetic field
 
 ohm's law
 
