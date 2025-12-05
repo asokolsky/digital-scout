@@ -36,7 +36,7 @@ You need to bandage a wound exerting disproportionally high pressure on one poin
 
 Apple power delivery standard (used to charge or power e.g. a laptop via a USB-C cable) increases the voltage supplied to the connected device.  What's the benefit in increasing the voltage?  Why can't we use standard USB 5V to charge laptop battery or power laptop?
 
-## Even More Practival Problems (Know Your Formulas)
+## Even More Practical Problems (Know Your Formulas)
 
 ### Collision of two balls
 
