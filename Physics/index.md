@@ -18,7 +18,7 @@ limits, derivatives
 
 ### Gases and Liquids
 
-Lamenar and turbulent flow.
+Laminar and turbulent flow.
 
 ### Optics
 
