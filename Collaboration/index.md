@@ -60,6 +60,8 @@ Presentation is controlled via [style](https://en.wikipedia.org/wiki/Style_sheet
 General problem of [version control](https://en.wikipedia.org/wiki/Version_control) and [git](https://en.wikipedia.org/wiki/Git) as a de-facto standard.
 
 [Atlassian tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control).
+* https://ohmygit.org/
+* https://asokolsky.github.io/apps/git/
 
 ## (Standalone) git Repo
 
@@ -72,6 +74,7 @@ git [repository](https://en.wikipedia.org/wiki/Repository_(version_control)) can
 * [hosting git repo in the cloud](https://asokolsky.github.io/apps/git/hosting.html)
 * pull request
 * [github action](https://github.com/features/actions)
+* [Everyday life of a software engineer](https://asokolsky.github.io/software-engineering/development-cycle.html)
 
 ## Collaboration Workflow
 
