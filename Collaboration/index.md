@@ -59,9 +59,10 @@ Presentation is controlled via [style](https://en.wikipedia.org/wiki/Style_sheet
 
 General problem of [version control](https://en.wikipedia.org/wiki/Version_control) and [git](https://en.wikipedia.org/wiki/Git) as a de-facto standard.
 
-[Atlassian tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control).
-* https://ohmygit.org/
+* [Atlassian tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control).
+* Game: https://ohmygit.org
 * https://asokolsky.github.io/apps/git/
+* [Git and GitHub - Full Course](https://www.youtube.com/watch?v=rH3zE7VlIMs)
 
 ## (Standalone) git Repo
 
