@@ -32,8 +32,4 @@ P&L report
 
 ## Personal Financing and Taxes
 
-Definitions
-
-* [Gross Income](https://taxfoundation.org/taxedu/glossary/gross-income/), a.k.a. Total Income.
-* [Adjusted Gross Income](https://taxfoundation.org/taxedu/glossary/adjusted-gross-income-agi/) = total income minus certain “above-the-line” deductions.
-* [Modified Adjusted Gross Income](https://www.hrblock.com/tax-center/income/other-income/modified-adjusted-gross-income/)
+[Taxes in US](taxes-us.md)
