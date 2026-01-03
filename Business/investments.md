@@ -10,9 +10,10 @@ Market [Indexes](https://en.wikipedia.org/wiki/Stock_market_index).
 
 ## Derivative Instruments
 
-* [Mutual funds](https://en.wikipedia.org/wiki/Mutual_fund) and
-[ETFs](https://www.investopedia.com/terms/e/etf.asp),
-[actively managed](https://www.investopedia.com/terms/e/exchange-traded-managed-fund-etmf.asp)
+* [Mutual funds](https://en.wikipedia.org/wiki/Mutual_fund)
+* An [ETFs](https://www.investopedia.com/terms/e/etf.asp), or
+[exchange-traded fund](https://www.etf.com/etf-education-center), is a pooled investment security like a mutual fund but it trades on an exchange like a stock. Most ETFs passively track a benchmark index, such as the S&P 500, while some are actively managed.
+* [actively managed](https://www.investopedia.com/terms/e/exchange-traded-managed-fund-etmf.asp)
 vs [index](https://www.investopedia.com/terms/i/indexfund.asp).
 * [Options](https://en.wikipedia.org/wiki/Option_(finance)).
 
@@ -90,3 +91,9 @@ Sell call options on stocks you already own (a strategy called a "covered call")
 * This can be a way to generate extra income from your existing holdings, with the risk that your potential profit is limited if the stock price rises significantly above the strike price.
 
 * Sell put options on stocks you are willing to own at a lower price to collect premium income.
+
+### Buffer ETFs, a.k.a. Defined Outcome ETFs
+
+[Buffer ETFs: What Are They and How Do They Work?](https://www.etf.com/sections/etf-basics/buffer-etfs-what-are-they-and-how-do-they-work)
+
+[Buffer ETF Screener](https://www.etf.com/topics/buffer)
