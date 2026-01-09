@@ -10,6 +10,10 @@ More computing:
 * [Skills](./skills.md)
 * [Tasks](./tasks.md)
 
+## Math
+
+[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf) by Eric Lehman, F Tom Leighton, Albert R Meyer.
+
 ## Architecture
 
 Computers have:

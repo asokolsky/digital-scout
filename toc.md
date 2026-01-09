@@ -9,7 +9,7 @@ Topics:
 * Laws of physics - ubiquity of application (or lack thereof)
 * [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
 * [thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
-* elecricity, magnetism, electromagnetic field
+* electricity, magnetism, electromagnetic field
 * ohm's law
 * limits, derivatives
 * [fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)
