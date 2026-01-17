@@ -12,26 +12,11 @@ Goal: deliver repeatable business results
 
 Skills:
 
-* [soft skills](https://en.wikipedia.org/wiki/Soft_skills), note the origin
+* [soft skills](soft-skills.md)
 * install vscode
 * edit markdown file
 * use git for version control of the text documents
 * static web site generation
-
-## Soft Skills
-
-From [wiki](https://en.wikipedia.org/wiki/Soft_skills):
-
-> critical thinking, problem solving, public speaking, professional writing,
-teamwork, digital literacy, leadership, professional attitude, work ethic,
-career management and intercultural fluency.
-
-Also:
-
-* [active listening](https://en.wikipedia.org/wiki/Active_listening)
-* communication: written, speaking in a meeting
-* [persuasion](https://en.wikipedia.org/wiki/Persuasion)
-* [time management](https://en.wikipedia.org/wiki/Time_management)
 
 ## Team
 

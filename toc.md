@@ -105,3 +105,11 @@ Goal: understand why "software is eating the world".
 * accounting equation
 
 [more](Business/)
+
+## Career and Professional Growth
+
+[here](Career/)
+
+* build your professional persona
+* promote yourself
+* sell your services
