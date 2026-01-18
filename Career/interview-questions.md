@@ -18,7 +18,7 @@ While answering use a STAR method: Situation, Task, Action, Result.
     * what did you manager do?  Did you ask for help?
 * give me an example of you challenging status quo.
 * give me an example of your failure.
-* give me an example when you successfully overcame an obstacle and delivered a project on time.
+* give me an example when you successfully overcame an obstacle and delivered the project on time.
 * give me an example when you achieved a goal though of as being unattainable.
 * what are you weaknesses?
 * tell me about a production incident and what you did about it.
@@ -26,12 +26,22 @@ While answering use a STAR method: Situation, Task, Action, Result.
 
 ## Technical
 
-* tell me about docker
-* review a Dockerfile point to mistakes, tell me what it does.
-* what does a private subnet in a vpc needs in order to talk to the internet
-* what is a difference between a terraform module and provider?
-* in terraform why do you need a remote state lock?
 * what does reliability mean for you?
-* describe what happens when a TCP connection is established
 * what do you with logs in your k8s cluster?
 * describe a fail-over strategy
+* what are the challenges of moving a legacy application to cloud?
+
+#### Networking
+
+* describe what happens when a TCP connection is established
+* what does a private subnet in a vpc needs in order to talk to the internet?
+
+#### Containers
+
+* tell me about docker
+* review a Dockerfile point to mistakes, tell me what it does.
+
+#### Terraform
+
+* in terraform why do you need a remote state lock?
+* what is a difference between a terraform module and provider?

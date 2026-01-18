@@ -10,7 +10,7 @@ When you build your career you wear multiple hats:
 * you are responsible for product [development](development.md) - your skills - both soft and technical;
 * you are the sales person - you [sell](sales.md) your professional persona to the prospective employers.
 
-This is overwhelming.  Until you take the first stab.  And you crash and burn.  And then you iterate. Rinse and repeat, while learning and adjusting your product positioning.
+This is overwhelming.  Until you take the first stab.  And you crash and burn.  And then you iterate. Rinse and repeat, while learning and adjusting your product positioning and features and your sales strategy.
 
 The three things above happen no matter whether you think things through or not.  If you do not take charge - life will do it for you.  Then things will happen to you.  Remember, [no decision is still a decision](https://www.higherlogic.com/blog/no-decision-is-still-a-decision-what-does-it-cost-you/).
 
