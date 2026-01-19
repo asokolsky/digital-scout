@@ -33,13 +33,22 @@ While answering use a STAR method: Situation, Task, Action, Result.
 
 #### Networking
 
-* describe what happens when a TCP connection is established
+* describe TCP handshake
 * what does a private subnet in a vpc needs in order to talk to the internet?
 
 #### Containers
 
 * tell me about docker
 * review a Dockerfile point to mistakes, tell me what it does.
+
+## Linux
+
+* what is an oom killer and how does it work?
+
+#### k8s
+
+* what are the k8s service types?
+* What is a pod disruption budget?
 
 #### Terraform
 
