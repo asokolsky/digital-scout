@@ -40,6 +40,8 @@ Presentation is controlled via [style](https://en.wikipedia.org/wiki/Style_sheet
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is a kind of [markup](https://en.wikipedia.org/wiki/Markup_language).
 
+[How Markdown took over the world](https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/).
+
 ## Version Control
 
 General problem of [version control](https://en.wikipedia.org/wiki/Version_control) and [git](https://en.wikipedia.org/wiki/Git) as a de-facto standard.
