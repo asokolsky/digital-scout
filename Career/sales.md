@@ -5,13 +5,16 @@ As a sales person (of your professional persona) you should project energetic an
 ## Interviewing
 
 See [soft skills](../Collaboration/soft-skills.md) for importance of:
+
 * being on time,
 * body language,
 * what being prepared means in the age of zoom calls.
 
 Be ready:
-* to make your [pitch](promotion.md)
-* to answer [questions](interview-questions.md).
+
+* to make your [pitch](promotion.md);
+* to answer [questions](interview-questions.md);
+* to [take notes](https://www.youtube.com/watch?v=Xw3SkhB4dMk)
 
 What works for me to keep context while interviewing:
 * use a single google doc per engagement

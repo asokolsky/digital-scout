@@ -199,9 +199,12 @@ Why use command line:
 [Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters)
 
 [zsh](https://en.wikipedia.org/wiki/Z_shell) made to all the operating systems:
-
 * native on MacOS and Linux
 * [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on Windows.
+
+[CLI Guidelines](https://clig.dev/)
+
+[CLI Problems to solve](problems.md)
 
 ### Command Line Use Examples
 

@@ -17,6 +17,7 @@ Skills:
 * edit markdown file
 * use git for version control of the text documents
 * static web site generation
+* increase personal productivity with effective note taking
 
 ## Team
 
@@ -83,3 +84,16 @@ The above are used in concert to achieve
 * [GitHub Pages](https://docs.github.com/en/pages/quickstart)
 * [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 * [BitBucket Pages](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/)
+
+## Personal Productivity: Note Taking
+
+Effective note taking is important!  Use [Obsidian](https://obsidian.md/):
+
+* [Give Me 15 Minutes. I'll Teach You 80% of Obsidian](https://www.youtube.com/watch?v=z4AbijUCoKU)
+* [Effective digital notetaking with Obsidian](https://www.youtube.com/watch?v=WPAV1SNkdFg)
+* [Excalidraw For Obsidian](https://www.youtube.com/watch?v=p0s9Z1oMQi4)
+
+You can use various methods for note organization:
+
+* [PARA](https://workflowy.com/systems/para-method/): [PARA in Obsidian. Start being productive.](https://www.youtube.com/watch?v=92UhZbJJivU)
+* [Zettelkasten](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/): [How I Use Obsidian Zettelkasten to Study AI & Tech Topics](https://www.youtube.com/watch?v=L2z7j7Jho4E)
