@@ -87,7 +87,7 @@ The above are used in concert to achieve
 
 ## Personal Productivity: Note Taking
 
-Effective note taking is important!  Use [Obsidian](https://obsidian.md/):
+Effective note taking is important!  Use [Obsidian](https://obsidian.md/) and [Excalidraw](https://github.com/excalidraw/excalidraw):
 
 * [Give Me 15 Minutes. I'll Teach You 80% of Obsidian](https://www.youtube.com/watch?v=z4AbijUCoKU)
 * [Effective digital notetaking with Obsidian](https://www.youtube.com/watch?v=WPAV1SNkdFg)
