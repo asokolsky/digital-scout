@@ -30,7 +30,7 @@ P&L report
 
 ## Investments
 
-[Investments](investments.html)
+[Investments](investments.md)
 
 ## Personal Financing and Taxes
 
