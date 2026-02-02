@@ -7,8 +7,8 @@ Why relevant:
 
 More computing:
 
-* [Skills](./skills.md)
-* [Tasks](./tasks.md)
+* [Skills](skills.md)
+* [Tasks](tasks.md)
 
 ## Math
 
@@ -202,9 +202,10 @@ Why use command line:
 * native on MacOS and Linux
 * [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on Windows.
 
-[CLI Guidelines](https://clig.dev/)
-
-[CLI Problems to solve](problems.md)
+Therefore:
+* [CLI Guidelines](https://clig.dev/)
+* [CLI Problems to solve](problems.md)
+* [CLI primer](cli-primer.md)
 
 ### Command Line Use Examples
 
