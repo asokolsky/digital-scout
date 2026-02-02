@@ -33,6 +33,7 @@ You need to be:
 * be a member in the relevant LinkedIn groups;
 * have posts and, ideally, LinkedIn articles;
 * make some (insightful) comments to the posts of the others.
+* [more tips](https://www.linkedin.com/posts/vanessavanedwards_linkedin-has-brought-me-career-opportunities-activity-7421937545036607489-WXle?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAAmHEBxaJci6u_zxUz5Tv1t5FjezGKpf4)
 
 ## GitHub
 
