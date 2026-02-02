@@ -22,3 +22,4 @@ If you are an engineering type (no matter which) or work for a high-tech company
     - being able to save file or abandon it and to quit
     - use search
 * have opinion on IDE and be able to justify it
+* use LLM, have tips on increased efficiency

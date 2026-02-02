@@ -48,7 +48,8 @@ While answering use a STAR method: Situation, Task, Action, Result.
 #### k8s
 
 * what are the k8s service types?
-* What is a pod disruption budget?
+* what is a pod disruption budget?
+* how to cycle the pods?
 
 #### Terraform
 
