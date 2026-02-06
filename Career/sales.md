@@ -14,7 +14,7 @@ Be ready:
 
 * to make your [pitch](promotion.md);
 * to answer [questions](interview-questions.md);
-* to [take notes](https://www.youtube.com/watch?v=Xw3SkhB4dMk)
+* to [take notes](note-taking.md).
 
 What works for me to keep context while interviewing:
 * use a single google doc per engagement
@@ -28,6 +28,6 @@ What works for me to keep context while interviewing:
 ## Follow-up
 
 It is [important to follow-up](https://online.hbs.edu/blog/post/how-to-follow-up-after-an-interview).  What works for me:
-* Review and fix your notes, ASAP, while you still remember the details.
+* Review and fix [your notes](note-taking.md), ASAP, while you still remember the details.
 * Write down the questions you were asked, especially if you think you under-performed in your answer.  Research the best answer and write it down.
 * write a thank you note to the recruiter thanking the team for interviewing you.

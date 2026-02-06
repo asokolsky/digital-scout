@@ -44,7 +44,7 @@ Being prepared in the age of zoom calls means:
 * my video is ON;
 * my mic is ON;
 * I am familiar with the agenda and have my questions ready;
-* I am ready to take notes.
+* I am ready to [take notes](../Career/note-taking.md).
 
 ## Media Savvy
 
