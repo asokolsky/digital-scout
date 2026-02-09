@@ -30,7 +30,7 @@ public class Node {
 
 
     /**
-     * Print ist like this: [1,2,3]
+     * Print list like this: [1,2,3]
      */
     public static void print_list(Node n) {
 
