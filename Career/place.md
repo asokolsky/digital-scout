@@ -1,7 +1,7 @@
 # What is Your Place/Distribution
 
 You will be employed:
-* in a specific role, e.g. Marketing or Engineering or Sales,
+* in a specific role or function, e.g. Marketing or Engineering or Sales,
 * by a company in a specific industry, e.g Semiconductors or Financial Services or SAAS or Healthcare, Defense,
 * by a company in a specific phase of the lifecycle, e.g. start-up or public company.
 
