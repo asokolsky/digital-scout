@@ -55,3 +55,7 @@ While answering use a STAR method: Situation, Task, Action, Result.
 
 * in terraform why do you need a remote state lock?
 * what is a difference between a terraform module and provider?
+
+## Questions to Ask
+
+* Assuming this interview went well, a year from now, what would I have done for you to feel great about making the hire decision.
