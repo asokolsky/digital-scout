@@ -214,29 +214,7 @@ Therefore:
 
 ## File Formats
 
-Binary vs text-based:
-
-Binary|Text
-------|----
-Unreadable by human|Readable
-Used for data such as audio, video, executables|Used for configuration, data, etc.
-
-* [List of file formats](https://en.wikipedia.org/wiki/List_of_file_formats)
-* [Text-based formats](https://en.wikipedia.org/wiki/List_of_file_formats#Text-based)
-include [document markup](https://en.wikipedia.org/wiki/List_of_document_markup_languages)
-formats, including most important ones
-[HTML](https://en.wikipedia.org/wiki/HTML) and
-[markdown](https://en.wikipedia.org/wiki/Markdown).
-
-Audio: wav, mp3
-
-Video: mjpg, mkv
-
-File formats are subject to fashion:
-
-* out: xml
-* in: yaml, json
-* timeless: csv
+[file formats](file-formats.md)
 
 ## More Reading
 
@@ -245,6 +223,5 @@ File formats are subject to fashion:
 Elsewhere:
 
 * More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
-
 
 Continue to [Cryptography](../Cryptography/)

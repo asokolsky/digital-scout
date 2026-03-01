@@ -1,5 +1,59 @@
 # Basic Linux Terminal Commands
 
+## Context
+
+The following concerns only with MacOS or Linux.  Windows is not discussed.
+MacOS is mostly a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
+in [userland](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) and
+hence generally follows [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+
+Try this: [Missing Semester](https://missing.csail.mit.edu/)
+
+## Anatomy of the terminal command
+
+Command, a.k.a. [CLI](https://en.wikipedia.org/wiki/Command-line_interface), has:
+
+* command line - the whole line, white space separated into arguments
+* arguments
+* options - these are argument which start with `-`, typically in the short, e.g. `-h` or long form, e.g. `--help`
+* it may have environment variables set
+
+Just like any process, command has:
+
+* environment
+* stdin
+* stdout
+* stderr
+* exit code
+
+[Redirecting](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) command output:
+
+* `<`
+* `>`
+* `>>`
+
+[shell expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
+
+Checkpoint:  explain this:
+```
+> ls -la *.md
+-rw-rw-r-- 1 alex alex  275 Oct  6  2024 README.md
+-rw-rw-r-- 1 alex alex 2134 Feb  2 07:38 toc.md
+> ls -la '*.md'
+ls: cannot access '*.md': No such file or directory
+```
+
+## Conventions
+
+dot files
+
+[Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard):
+
+* Windows does not even try
+* MacOS does not strictly adhere to the FHS.
+
+## Basic Commands
+
 From https://realpython.com/terminal-commands
 
 To work with the terminal effectively, it’s important to understand some basic terminal commands and know how to use them. Terminal commands are the instructions that you type into the terminal to execute a specific task.
@@ -9,6 +63,7 @@ Depending on your operating system, you’ll run the terminal commands in a spec
 Note: You can think of commands as little programs that are built into your shell or can be added by external applications. In PowerShell, commands are also known as cmdlets.
 
 These are the Linux and macOS commands:
+
 Command|Description
 -------|-----------
 pwd|Print the path of the current directory
@@ -23,7 +78,9 @@ cd ..|Change into the parent directory
 echo TEXT|Print TEXT to the terminal
 echo TEXT > TARGET|Print TEXT to a file named TARGET
 echo TEXT >> TARGET|Append TEXT to TARGET
+env|Print environment to stdout
 cp SOURCE TARGET|Copy SOURCE to TARGET
+man CMD|Show the manual page for CMD
 mv SOURCE TARGET|Rename or move SOURCE to TARGET
 python PYTHONFILE|Run PYTHONFILE
 
