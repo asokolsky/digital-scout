@@ -7,7 +7,12 @@ MacOS is mostly a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribu
 in [userland](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) and
 hence generally follows [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
 
-Try this: [Missing Semester](https://missing.csail.mit.edu/)
+## Shell Primers
+
+Try this: [Missing Semester](https://missing.csail.mit.edu/) and
+[this best shell primer](https://missing.csail.mit.edu/2026/course-shell/).
+
+The following was inspired by https://realpython.com/terminal-commands.
 
 ## Anatomy of the terminal command
 
