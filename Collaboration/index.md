@@ -41,7 +41,8 @@ Presentation is controlled via [style](https://en.wikipedia.org/wiki/Style_sheet
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is a kind of [markup](https://en.wikipedia.org/wiki/Markup_language).
 
-[How Markdown took over the world](https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/).
+* [How Markdown took over the world](https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/).
+* [Markdown Ate The World](https://matduggan.com/markdown-ate-the-world/)
 
 ## Version Control
 
