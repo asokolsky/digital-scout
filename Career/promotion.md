@@ -46,3 +46,30 @@ For software engineers, you also need:
 
 * have issues submitted into the repos you do not own;
 * have some PRs merged into the repos you do not own.
+
+## Stories You Tell
+
+Summary by [Reno Perry](https://www.linkedin.com/in/renoperry/):
+
+![5 Story Telling Frameworks](story-telling-frameworks.jpg)
+
+### Problem - Constraint - Action - Result
+
+Same as (?) Problem - Action - Result or
+[Situation, task, action, result](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
+
+### Minto Pyramid
+
+https://untools.co/minto-pyramid/
+
+### Attention - Interest - Desire - Action
+
+https://en.wikipedia.org/wiki/AIDA_(marketing)
+
+### Hero's Journey
+
+https://en.wikipedia.org/wiki/Hero%27s_journey
+
+### Story Brand Framework
+
+https://www.creativeo.co/post/storybrand-framework
