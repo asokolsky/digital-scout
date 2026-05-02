@@ -55,6 +55,10 @@ History:
 | --- | ------ |
 | Ctrl + r | History search |
 | Ctrl + s | Go back to the next most recent command |
+| Esc + < | First command in the history |
+| Esc + > | Last command in the history |
+| Ctrl + p | Previous command in the history |
+| Ctrl + n | Next command in the history |
 | ^abc^def | Run previous command, replacing abc with def |
 
 ## Anatomy of the terminal command
@@ -113,25 +117,25 @@ Note: You can think of commands as little programs that are built into your shel
 
 These are the Linux and macOS commands:
 
-Command|Description
--------|-----------
-pwd|Print the path of the current directory
-mkdir FOLDERPATH|Create a new directory
-touch FILEPATH|Create a new file
-clear|Clear the terminal window
-ls|List the contents of a folder
-ls -al|List all the contents of a folder with info
-cat TARGET|Show the content of TARGET
-cd FOLDERPATH|Change into a directory
-cd ..|Change into the parent directory
-echo TEXT|Print TEXT to the terminal
-echo TEXT > TARGET|Print TEXT to a file named TARGET
-echo TEXT >> TARGET|Append TEXT to TARGET
-env|Print environment to stdout
-cp SOURCE TARGET|Copy SOURCE to TARGET
-man CMD|Show the manual page for CMD
-mv SOURCE TARGET|Rename or move SOURCE to TARGET
-python PYTHONFILE|Run PYTHONFILE
+| Command | Description |
+| ------- | ----------- |
+| pwd | Print the path of the current directory |
+| mkdir FOLDERPATH | Create a new directory |
+| touch FILEPATH | Create a new file |
+| clear | Clear the terminal window |
+| ls | List the contents of a folder |
+| ls -al | List all the contents of a folder with info |
+| cat TARGET | Show the content of TARGET |
+| cd FOLDERPATH | Change into a directory |
+| cd .. | Change into the parent directory |
+| echo TEXT | Print TEXT to the terminal |
+| echo TEXT > TARGET | Print TEXT to a file named TARGET |
+| echo TEXT >> TARGET | Append TEXT to TARGET |
+| env | Print environment to stdout |
+| cp SOURCE TARGET | Copy SOURCE to TARGET |
+| man CMD | Show the manual page for CMD |
+| mv SOURCE TARGET | Rename or move SOURCE to TARGET |
+| python PYTHONFILE | Run PYTHONFILE |
 
 The terms in uppercase letters are references to the arguments that the commands allow.
 
