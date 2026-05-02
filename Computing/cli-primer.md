@@ -3,6 +3,7 @@
 ## Context
 
 The following concerns only with MacOS or Linux.  Windows is not discussed.
+
 MacOS is mostly a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
 in [userland](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) and
 hence generally follows [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
@@ -13,6 +14,48 @@ Try this: [Missing Semester](https://missing.csail.mit.edu/) and
 [this best shell primer](https://missing.csail.mit.edu/2026/course-shell/).
 
 The following was inspired by https://realpython.com/terminal-commands.
+
+## REPL
+
+Terminal runs a [read-eval-print loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).
+
+While entering the command you can use line editing, mostly inspired by vi and/or emacs.
+
+Process control:
+
+| Key | Action |
+| --- | ------ |
+| Ctrl + c | Interrupt/Kill |
+| Ctrl + d | [EOF](https://en.wikipedia.org/wiki/End-of-file) |
+| Ctrl + l | Clear screen |
+| Ctrl + z | Background/Foreground job |
+| Ctrl + g | Stop editing |
+
+Navigation, move cursor:
+
+| Key | Action |
+| --- | ------ |
+| Ctrl + a/e | beginning/end of command |
+| Esc + b/f | back/forward by word |
+
+Compare this to [emacs key bindings](https://asokolsky.github.io/apps/emacs/).
+
+Line Editing:
+
+| Key | Action |
+| --- | ------ |
+| Ctrl + d | when line is empty - EOF, otherwise delete char right |
+| Ctrl + k | kill to the end of line |
+| Esc + Backspace | kill previous word |
+| Ctrl + y | yank |
+
+History:
+
+| Key | Action |
+| --- | ------ |
+| Ctrl + r | History search |
+| Ctrl + s | Go back to the next most recent command |
+| ^abc^def | Run previous command, replacing abc with def |
 
 ## Anatomy of the terminal command
 
@@ -40,7 +83,8 @@ Just like any process, command has:
 [shell expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
 
 Checkpoint:  explain this:
-```
+
+```txt
 > ls -la *.md
 -rw-rw-r-- 1 alex alex  275 Oct  6  2024 README.md
 -rw-rw-r-- 1 alex alex 2134 Feb  2 07:38 toc.md
@@ -101,7 +145,7 @@ After you’ve opened the terminal app, you usually start in the user folder of 
 
 To get things started, find out what your current working directory is:
 
-```
+```txt
 $ pwd
 /Users/realpython
 ```
@@ -112,7 +156,7 @@ The working directory is the current directory that you’re operating in. It’
 
 To see which files and folders the/Users/realpython directory contains, you can use `ls`, which is short for list:
 
-```
+```txt
 $ ls
 Applications          Movies
 Desktop               Music
@@ -129,7 +173,7 @@ Another flag that you can use is -l, which stands for long. When you use this fl
 
 You can also combine these flags to show detailed information about all the items, including the hidden ones, by using `ls -al`:
 
-```
+```txt
 $ ls -al
 total 80
 drwxr-xr-x+  25 realpython  staff    800 Nov 26 11:51 .
@@ -155,7 +199,7 @@ Hidden files and folders aren’t displayed by default. That’s okay for casual
 
 The output above may be a bit overwhelming at first. Have a look at this line to understand the output better:
 
-```
+```txt
 drwx------@  22 realpython  staff    704 Nov  7 16:00 Desktop
 ```
 
@@ -165,7 +209,7 @@ Apart from that, you can see information about the owner and group permissions. 
 
 Each folder in the output of ls represents a subfolder that’s inside your current working directory. To change the current working directory into the Desktop/ subfolder, you use the change directory command, `cd`:
 
-```
+```txt
 $ pwd
 /Users/realpython
 $ cd Desktop
@@ -180,22 +224,24 @@ Note that you don’t specify a slash / or drive indicator like C:\ at the begin
 You used a relative path in the command above to navigate into a subfolder. Relative paths make it convenient to reference items in your file system because you don’t have to specify the complete path from the root directory. That being said, you can also change into any directory of your file system by using a complete or absolute path.
 
 On Linux and macOS, you specify the absolute path with forward slashes:
-```
+
+```txt
 $ cd /Users/realpython/Desktop
 $ pwd
 /Users/realpython/Desktop
 ```
+
 In this case, the cd command changes the current working directory to the directory /Users/realpython/Desktop, independently of its previous location.
 
 If you use cd with a path that doesn’t exist, then the terminal will print an error. You’ll soon learn how to create new directories. Before you do, make one last move in your file system.
 
 To move one directory up, you usually don’t use the name of the parent folder but two dots:
 
+```sh
+cd ..
+pwd
 ```
-$ cd ..
-$ pwd
-/Users/realpython
-```
+
 The two dots (..) represent the parent directory of the current directory. Using cd .. moves you up one directory in the file system hierarchy.
 
 In a GUI file system application like Windows Explorer or the macOS Finder, you’d click little folder icons with your mouse cursor. In the terminal application, you use commands to perform tasks—for example, cd to move between folders and ls to get an overview of the items in a directory.
@@ -208,21 +254,21 @@ With the knowledge from this section, you’ll be able to create and organize yo
 
 Start by making sure that your current working directory is the Desktop. Then, use mkdir to create a new folder named `rp_terminal`. Navigate to the Desktop and create the new folder:
 
+```sh
+cd /Users/realpython/Desktop
+pwd
+mkdir rp_terminal
 ```
-$ cd /Users/realpython/Desktop
-$ pwd
-/Users/realpython/Desktop
-$ mkdir rp_terminal
-```
-ou use the mkdir command to create a new directory. The command stands for make directory. Here, you name the new directory rp_terminal.
+
+or use the mkdir command to create a new directory. The command stands for make directory. Here, you name the new directory rp_terminal.
 
 Next, move into rp_terminal/ and create a new file named hello_terminal.py. Select your operating system below and use your platform-specific command accordingly.
 
 Move into the folder and create a new Python file:
 
-```
-$ cd rp_terminal
-$ touch hello_terminal.py
+```sh
+cd rp_terminal
+touch hello_terminal.py
 ```
 
 When you run the touch command, you create an empty file with the given name. In this case, the file is a Python script named hello_terminal.py.
@@ -231,14 +277,15 @@ If a file with the provided name already exists, then using touch updates the fi
 
 Use the long format of ls to verify that you created the file successfully:
 
-```
+```txt
 $ ls -l
 total 0
 -rw-r--r--@ 1 realpython  staff  0 Nov 27 12:09 hello_terminal.py
 ```
 
 The 0 between the group and the timestamp indicates that hello_terminal.py is currently empty. You’ll use the echo command to add content to hello_terminal.py in a moment. Before you do so, have a look at what echo does when you type the command followed by some text:
-```
+
+```txt
 $ echo 'print("Hello, terminal!")'
 print("Hello, terminal!")
 ```
@@ -246,8 +293,9 @@ print("Hello, terminal!")
 As a Python developer, you know that the text you just provided to echo is a print() function call. However, for the echo command, it’s a plain string, which it outputs back into the terminal. More specifically, the echo command sends the string to the standard output stream (stdout).
 
 The stdout is the default destination for data that a command-line program sends. The data is displayed on the screen, but you can tell the terminal to redirect stdout to a file:
-```
-$ echo 'print("Hello, terminal!")' > hello_terminal.py
+
+```sh
+echo 'print("Hello, terminal!")' > hello_terminal.py
 ```
 
 Again, you’re using echo to output a given string. But this time, you use the caret symbol (>) to send the output into hello_terminal.py.
@@ -255,14 +303,16 @@ Again, you’re using echo to output a given string. But this time, you use the 
 Note: Be careful when redirecting the stdout to existing files. Any content that the file contains will be overwritten without warning. When you redirect the output of the echo command into a nonexistent file, then you’re creating the file in the same step.
 
 One way to check if the command worked is to list the contents of your folder again:
-```
+
+```txt
 ls -l
 total 8
 -rw-r--r--@ 1 realpython  staff  26 Nov 27 12:12 hello_terminal.py
 ```
 
 Perfect, the size of hello_terminal.py is 26 bytes now. To verify that it contains the print() function call, you can use the cat command:
-```
+
+```txt
 $ cat hello_terminal.py
 print("Hello, terminal!")
 ```
@@ -272,7 +322,8 @@ Disappointingly, the cat command doesn’t have to do anything with cats. It’s
 When you use cat with multiple files as arguments, you can concatenate them and display the contents one after another. If you use cat with only one file, then cat is a convenient way to display the contents of a file in the terminal.
 
 Now that you know that hello_terminal.py contains valid Python code, you can run the Python script:
-```
+
+```txt
 python hello_terminal.py
 Hello, terminal!
 ```
