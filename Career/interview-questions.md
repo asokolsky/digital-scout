@@ -3,6 +3,7 @@
 ## Oddities
 
 * why do you want to join this company?
+* I hate surprises.  Tell me something that might go wrong now so that I am not surprised when it happens (from Simon Sinek)
 
 ## Behavioral
 
