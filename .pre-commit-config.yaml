@@ -13,7 +13,8 @@ repos:
   hooks:
   - id: mdformat
     name: mdformat
-    entry: uvx --with mdformat-gfm==1.0.0 --with mdformat-frontmatter mdformat@1.0.0
+    entry: mise run format
     language: system
+    pass_filenames: false
     types:
     - markdown
