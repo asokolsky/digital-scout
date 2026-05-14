@@ -5,11 +5,15 @@ repos:
   - id: check-added-large-files
   - id: check-yaml
   - id: check-json
-    exclude: ^(\.vscode/settings\.json|apps/vscode/settings-windows\.json|apps/vscode/devcontianer/devcontainer-terraform\.json)$
+    exclude: ^((.*/)?\.vscode/(settings|launch)\.json|apps/vscode/settings-windows\.json|apps/vscode/devcontianer/devcontainer-terraform\.json)$
   - id: check-merge-conflict
   - id: end-of-file-fixer
   - id: trailing-whitespace
-- repo: https://github.com/DavidAnson/markdownlint-cli2
-  rev: v0.21.0
+- repo: local
   hooks:
-  - id: markdownlint-cli2
+  - id: mdformat
+    name: mdformat
+    entry: uvx --with mdformat-gfm==1.0.0 --with mdformat-frontmatter mdformat@1.0.0
+    language: system
+    types:
+    - markdown

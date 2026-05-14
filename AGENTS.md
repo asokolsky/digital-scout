@@ -8,13 +8,18 @@ This GitHub repo is made mostly of Markdown notes.
 Markdown files may include frontmatter, raw HTML, pasted command output,
 and pipe tables.
 
+- `toc.md` is the top-level table of contents. When adding, renaming, or
+  removing top-level topic pages or directories, check whether `toc.md` needs
+  a matching update.
+
 ## Formatting And Hooks
 
 - Run `mise format` after Markdown edits.
 - Run `mise pre-commit-run` before finishing changes that affect Markdown,
   formatter config, hook config, or generated formatting.
-- The formatter is `mdformat` with `gfm` and `frontmatter` enabled through
-  `.mdformat.toml`.
+- `.mdformat.toml` is the source of truth for Markdown formatting behavior.
+- `mise format` and the pre-commit `mdformat` hook must use the same
+  `mdformat` settings and plugins from `.mdformat.toml`.
 - Keep YAML frontmatter fenced with `---`. If frontmatter becomes a horizontal
   rule plus a heading, fix the formatter config or the file syntax before
   continuing.

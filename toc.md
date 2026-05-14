@@ -92,7 +92,7 @@ Skills:
 
 - use amp/volt/ohm meter
 
-[more](Elecronics/)
+[more](Electronics/)
 
 ## Money, Business, Accounting, Investments
 
@@ -109,8 +109,8 @@ Goal: understand why "software is eating the world".
 
 ## Career and Professional Growth
 
-[here](Career/)
-
 - build your professional persona
 - promote yourself
 - sell your services
+
+[more](Career/)
