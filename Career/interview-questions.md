@@ -2,61 +2,60 @@
 
 ## Oddities
 
-* why do you want to join this company?
-* I hate surprises.  Tell me something that might go wrong now so that I am not surprised when it happens (from Simon Sinek)
+- why do you want to join this company?
+- I hate surprises. Tell me something that might go wrong now so that I am not surprised when it happens (from Simon Sinek)
 
 ## Behavioral
 
-* you are given a task to complete in 2 weeks.  After a couple of days a co-worker asks for help.  You help.  They ask for more. Your commitment is under threat.  What do you do?
-* Senior VP asks for your help in picking a tool.  You and the team do the research and stack-rank the options.  Management picks the worst option.  What do you do?
-    * The team does not buy into it and is unhappy.  What do you do?
+- you are given a task to complete in 2 weeks. After a couple of days a co-worker asks for help. You help. They ask for more. Your commitment is under threat. What do you do?
+- Senior VP asks for your help in picking a tool. You and the team do the research and stack-rank the options. Management picks the worst option. What do you do?
+  - The team does not buy into it and is unhappy. What do you do?
 
 ## Experience
 
 While answering use a STAR method: Situation, Task, Action, Result.
 
-* tell me about a conflict you had.
-    * what did you manager do?  Did you ask for help?
-* give me an example of you challenging status quo.
-* give me an example of your failure.
-* give me an example when you successfully overcame an obstacle and delivered the project on time.
-* give me an example when you achieved a goal though of as being unattainable.
-* what are you weaknesses?
-* tell me about a production incident and what you did about it.
-
+- tell me about a conflict you had.
+  - what did you manager do? Did you ask for help?
+- give me an example of you challenging status quo.
+- give me an example of your failure.
+- give me an example when you successfully overcame an obstacle and delivered the project on time.
+- give me an example when you achieved a goal though of as being unattainable.
+- what are you weaknesses?
+- tell me about a production incident and what you did about it.
 
 ## Technical
 
-* what does reliability mean for you?
-* what do you with logs in your k8s cluster?
-* describe a fail-over strategy
-* what are the challenges of moving a legacy application to cloud?
+- what does reliability mean for you?
+- what do you with logs in your k8s cluster?
+- describe a fail-over strategy
+- what are the challenges of moving a legacy application to cloud?
 
 #### Networking
 
-* describe TCP handshake
-* what does a private subnet in a vpc needs in order to talk to the internet?
+- describe TCP handshake
+- what does a private subnet in a vpc needs in order to talk to the internet?
 
 #### Containers
 
-* tell me about docker
-* review a Dockerfile point to mistakes, tell me what it does.
+- tell me about docker
+- review a Dockerfile point to mistakes, tell me what it does.
 
 ## Linux
 
-* what is an oom killer and how does it work?
+- what is an oom killer and how does it work?
 
 #### k8s
 
-* what are the k8s service types?
-* what is a pod disruption budget?
-* how to cycle the pods?
+- what are the k8s service types?
+- what is a pod disruption budget?
+- how to cycle the pods?
 
 #### Terraform
 
-* in terraform why do you need a remote state lock?
-* what is a difference between a terraform module and provider?
+- in terraform why do you need a remote state lock?
+- what is a difference between a terraform module and provider?
 
 ## Questions to Ask
 
-* Assuming this interview went well, a year from now, what would I have done for you to feel great about making the hire decision.
+- Assuming this interview went well, a year from now, what would I have done for you to feel great about making the hire decision.

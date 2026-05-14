@@ -2,7 +2,7 @@
 
 ## Context
 
-The following concerns only with MacOS or Linux.  Windows is not discussed.
+The following concerns only with MacOS or Linux. Windows is not discussed.
 
 MacOS is mostly a [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
 in [userland](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution) and
@@ -23,70 +23,70 @@ While entering the command you can use line editing, mostly inspired by vi and/o
 
 Process control:
 
-| Key | Action |
-| --- | ------ |
-| Ctrl + c | Interrupt/Kill |
+| Key      | Action                                           |
+| -------- | ------------------------------------------------ |
+| Ctrl + c | Interrupt/Kill                                   |
 | Ctrl + d | [EOF](https://en.wikipedia.org/wiki/End-of-file) |
-| Ctrl + l | Clear screen |
-| Ctrl + z | Background/Foreground job |
-| Ctrl + g | Stop editing |
+| Ctrl + l | Clear screen                                     |
+| Ctrl + z | Background/Foreground job                        |
+| Ctrl + g | Stop editing                                     |
 
 Navigation, move cursor:
 
-| Key | Action |
-| --- | ------ |
+| Key        | Action                   |
+| ---------- | ------------------------ |
 | Ctrl + a/e | beginning/end of command |
-| Esc + b/f | back/forward by word |
+| Esc + b/f  | back/forward by word     |
 
 Compare this to [emacs key bindings](https://asokolsky.github.io/apps/emacs/).
 
 Line Editing:
 
-| Key | Action |
-| --- | ------ |
-| Ctrl + d | when line is empty - EOF, otherwise delete char right |
-| Ctrl + k | kill to the end of line |
-| Esc + Backspace | kill previous word |
-| Ctrl + y | yank |
+| Key             | Action                                                |
+| --------------- | ----------------------------------------------------- |
+| Ctrl + d        | when line is empty - EOF, otherwise delete char right |
+| Ctrl + k        | kill to the end of line                               |
+| Esc + Backspace | kill previous word                                    |
+| Ctrl + y        | yank                                                  |
 
 History:
 
-| Key | Action |
-| --- | ------ |
-| Ctrl + r | History search |
-| Ctrl + s | Go back to the next most recent command |
-| Esc + < | First command in the history |
-| Esc + > | Last command in the history |
-| Ctrl + p | Previous command in the history |
-| Ctrl + n | Next command in the history |
+| Key      | Action                                       |
+| -------- | -------------------------------------------- |
+| Ctrl + r | History search                               |
+| Ctrl + s | Go back to the next most recent command      |
+| Esc + \< | First command in the history                 |
+| Esc + >  | Last command in the history                  |
+| Ctrl + p | Previous command in the history              |
+| Ctrl + n | Next command in the history                  |
 | ^abc^def | Run previous command, replacing abc with def |
 
 ## Anatomy of the terminal command
 
 Command, a.k.a. [CLI](https://en.wikipedia.org/wiki/Command-line_interface), has:
 
-* command line - the whole line, white space separated into arguments
-* arguments
-* options - these are argument which start with `-`, typically in the short, e.g. `-h` or long form, e.g. `--help`
-* it may have environment variables set
+- command line - the whole line, white space separated into arguments
+- arguments
+- options - these are argument which start with `-`, typically in the short, e.g. `-h` or long form, e.g. `--help`
+- it may have environment variables set
 
 Just like any process, command has:
 
-* environment
-* stdin
-* stdout
-* stderr
-* exit code
+- environment
+- stdin
+- stdout
+- stderr
+- exit code
 
 [Redirecting](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) command output:
 
-* `<`
-* `>`
-* `>>`
+- `<`
+- `>`
+- `>>`
 
 [shell expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)
 
-Checkpoint:  explain this:
+Checkpoint: explain this:
 
 ```txt
 > ls -la *.md
@@ -102,8 +102,8 @@ dot files
 
 [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard):
 
-* Windows does not even try
-* MacOS does not strictly adhere to the FHS.
+- Windows does not even try
+- MacOS does not strictly adhere to the FHS.
 
 ## Basic Commands
 
@@ -117,25 +117,25 @@ Note: You can think of commands as little programs that are built into your shel
 
 These are the Linux and macOS commands:
 
-| Command | Description |
-| ------- | ----------- |
-| pwd | Print the path of the current directory |
-| mkdir FOLDERPATH | Create a new directory |
-| touch FILEPATH | Create a new file |
-| clear | Clear the terminal window |
-| ls | List the contents of a folder |
-| ls -al | List all the contents of a folder with info |
-| cat TARGET | Show the content of TARGET |
-| cd FOLDERPATH | Change into a directory |
-| cd .. | Change into the parent directory |
-| echo TEXT | Print TEXT to the terminal |
-| echo TEXT > TARGET | Print TEXT to a file named TARGET |
-| echo TEXT >> TARGET | Append TEXT to TARGET |
-| env | Print environment to stdout |
-| cp SOURCE TARGET | Copy SOURCE to TARGET |
-| man CMD | Show the manual page for CMD |
-| mv SOURCE TARGET | Rename or move SOURCE to TARGET |
-| python PYTHONFILE | Run PYTHONFILE |
+| Command             | Description                                 |
+| ------------------- | ------------------------------------------- |
+| pwd                 | Print the path of the current directory     |
+| mkdir FOLDERPATH    | Create a new directory                      |
+| touch FILEPATH      | Create a new file                           |
+| clear               | Clear the terminal window                   |
+| ls                  | List the contents of a folder               |
+| ls -al              | List all the contents of a folder with info |
+| cat TARGET          | Show the content of TARGET                  |
+| cd FOLDERPATH       | Change into a directory                     |
+| cd ..               | Change into the parent directory            |
+| echo TEXT           | Print TEXT to the terminal                  |
+| echo TEXT > TARGET  | Print TEXT to a file named TARGET           |
+| echo TEXT >> TARGET | Append TEXT to TARGET                       |
+| env                 | Print environment to stdout                 |
+| cp SOURCE TARGET    | Copy SOURCE to TARGET                       |
+| man CMD             | Show the manual page for CMD                |
+| mv SOURCE TARGET    | Rename or move SOURCE to TARGET             |
+| python PYTHONFILE   | Run PYTHONFILE                              |
 
 The terms in uppercase letters are references to the arguments that the commands allow.
 
@@ -223,7 +223,7 @@ $ pwd
 
 When you enter cd followed by a directory name, it’ll change the current working directory to the specified directory. After you run the command cd Desktop, the current working directory changes to /Users/realpython/Desktop.
 
-Note that you don’t specify a slash / or drive indicator like C:\ at the beginning of Desktop. Calling a path like this indicates that you want to navigate into a path that’s relative to the directory that you’re in right now.
+Note that you don’t specify a slash / or drive indicator like C:\\ at the beginning of Desktop. Calling a path like this indicates that you want to navigate into a path that’s relative to the directory that you’re in right now.
 
 You used a relative path in the command above to navigate into a subfolder. Relative paths make it convenient to reference items in your file system because you don’t have to specify the complete path from the root directory. That being said, you can also change into any directory of your file system by using a complete or absolute path.
 
@@ -340,7 +340,7 @@ In this case, you’re executing hello_terminal.py, and you see the output of yo
 
 Note:
 
-* When you run a Python script in the terminal, the script will output any error messages to the standard error stream (stderr). The standard error stream is a separate output channel that’s used specifically for error messages, warnings, and other diagnostic information.
-* With this separate output channel for error messages, you can redirect or filter regular output and diagnostic messages independently.
+- When you run a Python script in the terminal, the script will output any error messages to the standard error stream (stderr). The standard error stream is a separate output channel that’s used specifically for error messages, warnings, and other diagnostic information.
+- With this separate output channel for error messages, you can redirect or filter regular output and diagnostic messages independently.
 
 With the knowledge gained in this section, you can now create, edit, and inspect Python files within the terminal. You’re now well equipped to move on to working with a command-line tool that’s essential on your journey as a Python developer. It’s called pip, and it enables you to include external packages in your Python projects.

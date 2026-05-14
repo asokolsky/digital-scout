@@ -2,26 +2,26 @@
 
 Definitions
 
-* [Gross Income](https://taxfoundation.org/taxedu/glossary/gross-income/), a.k.a. Total Income.
-* [Adjusted Gross Income](https://taxfoundation.org/taxedu/glossary/adjusted-gross-income-agi/) = GI - adjustments, a.k.a. above-the-line deductions. AGI is reported on Form 1040 line 11
-* [Modified Adjusted Gross Income](https://www.hrblock.com/tax-center/income/other-income/modified-adjusted-gross-income/), NOT reported on Form 1040, must be calculated separately.
-* Taxable Income = AGI - deductions
-* Deductions - reduce your TI, the effect depends on your marginal tax rate.
-* Tax Credits - reduce your tax bill dollar-for-dollar.
+- [Gross Income](https://taxfoundation.org/taxedu/glossary/gross-income/), a.k.a. Total Income.
+- [Adjusted Gross Income](https://taxfoundation.org/taxedu/glossary/adjusted-gross-income-agi/) = GI - adjustments, a.k.a. above-the-line deductions. AGI is reported on Form 1040 line 11
+- [Modified Adjusted Gross Income](https://www.hrblock.com/tax-center/income/other-income/modified-adjusted-gross-income/), NOT reported on Form 1040, must be calculated separately.
+- Taxable Income = AGI - deductions
+- Deductions - reduce your TI, the effect depends on your marginal tax rate.
+- Tax Credits - reduce your tax bill dollar-for-dollar.
 
 IRS on
 
-* [AGI](https://www.irs.gov/filing/adjusted-gross-income)
-* [MAGI](https://www.irs.gov/credits-deductions/modified-adjusted-gross-income)
+- [AGI](https://www.irs.gov/filing/adjusted-gross-income)
+- [MAGI](https://www.irs.gov/credits-deductions/modified-adjusted-gross-income)
 
 See, e.g. https://guide.sillymoney.com/
 
-Income | Description | Example
--------|-------------|--------
-GI | All income = wages + interest + dividends + rentals + etc | [$71,000](https://www.irs.gov/filing/adjusted-gross-income)
-AGI = GI - above the line deductions | IRA contributions, student loan interest | [$68,250](https://www.irs.gov/filing/adjusted-gross-income)
-MAGI = AGI + add-backs | tax-exempt interest, foreign income, certain deductions | $69,000
-TI = AGI - deductions | standard or itemized deductions | $40,000
+| Income                               | Description                                               | Example                                                     |
+| ------------------------------------ | --------------------------------------------------------- | ----------------------------------------------------------- |
+| GI                                   | All income = wages + interest + dividends + rentals + etc | [$71,000](https://www.irs.gov/filing/adjusted-gross-income) |
+| AGI = GI - above the line deductions | IRA contributions, student loan interest                  | [$68,250](https://www.irs.gov/filing/adjusted-gross-income) |
+| MAGI = AGI + add-backs               | tax-exempt interest, foreign income, certain deductions   | $69,000                                                     |
+| TI = AGI - deductions                | standard or itemized deductions                           | $40,000                                                     |
 
 ## Marginal vs Effective Tax Rates
 
@@ -33,19 +33,18 @@ Key to understanding - plot of Taxes vs TI.
 
 Observe:
 
-* varying marginal rates - these define how the steep the line goes
-* effective tax rate
-* effective tax rate ≤ marginal tax rate.
-
+- varying marginal rates - these define how the steep the line goes
+- effective tax rate
+- effective tax rate ≤ marginal tax rate.
 
 ## Deductions, Standard vs Itemized
 
 Most Common Itemized deductions:
 
-* State and Local Taxes (SALT): property taxes, state income and sales taxes, cap: $40k
-* Mortgage interest, upto $750k
-* Charitable contributions
-* Medical expenses, if > 7.5% AGI
+- State and Local Taxes (SALT): property taxes, state income and sales taxes, cap: $40k
+- Mortgage interest, upto $750k
+- Charitable contributions
+- Medical expenses, if > 7.5% AGI
 
 Bunching strategy: if close to itemizing threshold, combine deductions in one year.
 

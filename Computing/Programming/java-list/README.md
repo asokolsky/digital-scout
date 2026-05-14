@@ -49,5 +49,5 @@ public class Node {
 
 implement:
 
-* `print_list`
-* `in_place_reverse`
+- `print_list`
+- `in_place_reverse`

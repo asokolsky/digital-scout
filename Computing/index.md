@@ -2,13 +2,13 @@
 
 Why relevant:
 
-* ubiquity
-* it is cool to know it
+- ubiquity
+- it is cool to know it
 
 More computing:
 
-* [Skills](skills.md)
-* [Tasks](tasks.md)
+- [Skills](skills.md)
+- [Tasks](tasks.md)
 
 ## Math
 
@@ -18,23 +18,23 @@ More computing:
 
 Computers have:
 
-* CPUs with multiple cores, executing multiple threads
-* RAM
-* Persistent storage
+- CPUs with multiple cores, executing multiple threads
+- RAM
+- Persistent storage
 
 Here are few examples (order of magnitude):
 
-Computer|Power Consumption (W)
---------|---------------------
-server in a data center|1000
-gaming laptop|100
-home router|10
-access point|10
-tablet|10
-smart phone|1-10
-smart watch|1
-climate controller|0.1
-smart lock|0.1
+| Computer                | Power Consumption (W) |
+| ----------------------- | --------------------- |
+| server in a data center | 1000                  |
+| gaming laptop           | 100                   |
+| home router             | 10                    |
+| access point            | 10                    |
+| tablet                  | 10                    |
+| smart phone             | 1-10                  |
+| smart watch             | 1                     |
+| climate controller      | 0.1                   |
+| smart lock              | 0.1                   |
 
 Check-up: what does "order of magnitude" mean?
 
@@ -42,17 +42,17 @@ Check-up: justify (not) buying a new laptop for green purposes.
 
 ## Buses
 
-[Bus](https://en.wikipedia.org/wiki/Bus_(computing)) is used to connect computing pieces together, can be serial or parallel.
+[Bus](<https://en.wikipedia.org/wiki/Bus_(computing)>) is used to connect computing pieces together, can be serial or parallel.
 
-* [PCI Express](https://en.wikipedia.org/wiki/PCI_Express)
-* [I2C](https://en.wikipedia.org/wiki/I%C2%B2C)
-* [USB](https://en.wikipedia.org/wiki/USB)
-* [thunderbolt](https://en.wikipedia.org/wiki/Thunderbolt_(interface))
-* [HDMI](https://en.wikipedia.org/wiki/HDMI)
+- [PCI Express](https://en.wikipedia.org/wiki/PCI_Express)
+- [I2C](https://en.wikipedia.org/wiki/I%C2%B2C)
+- [USB](https://en.wikipedia.org/wiki/USB)
+- [thunderbolt](<https://en.wikipedia.org/wiki/Thunderbolt_(interface)>)
+- [HDMI](https://en.wikipedia.org/wiki/HDMI)
 
 Check-up: how is the webcam in your laptop connected to the laptop?
 
-Check-up: is USB serial or parallel bus?  HDMI?
+Check-up: is USB serial or parallel bus? HDMI?
 
 ## Operating System
 
@@ -60,48 +60,47 @@ Check-up: is USB serial or parallel bus?  HDMI?
 
 Example OSs:
 
-* [OS/360](https://en.wikipedia.org/wiki/OS/360_and_successors)
-* [Windows 11](https://en.wikipedia.org/wiki/Windows_11)
-* [MacOS 14 Sonoma](https://en.wikipedia.org/wiki/MacOS_Sonoma)
-* [Ubuntu 24.04 LTS](https://en.wikipedia.org/wiki/Ubuntu_version_history#2404)
+- [OS/360](https://en.wikipedia.org/wiki/OS/360_and_successors)
+- [Windows 11](https://en.wikipedia.org/wiki/Windows_11)
+- [MacOS 14 Sonoma](https://en.wikipedia.org/wiki/MacOS_Sonoma)
+- [Ubuntu 24.04 LTS](https://en.wikipedia.org/wiki/Ubuntu_version_history#2404)
 
 (Engineering) Mind-share leader: Linux family of OSes.
 
 Trends:
 
-* commoditization
-* immutability
-* move to cloud
+- commoditization
+- immutability
+- move to cloud
 
 ### OS Architecture
 
-[![OS Architecture](os-architecture.jpeg)]()
-
+[![OS Architecture](os-architecture.jpeg)](<>)
 
 ## Graphical User Interface
 
 [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) terminology:
 
-* cursor vs caret
-* icon
-* window
-* title bar
-* scrollbar
-* status bar
-* menubar
-* pull down menu
-* Popup menu
-* dialog box, app/system modal
-* pop up
+- cursor vs caret
+- icon
+- window
+- title bar
+- scrollbar
+- status bar
+- menubar
+- pull down menu
+- Popup menu
+- dialog box, app/system modal
+- pop up
 
 Widgets / controls:
 
-* check box
-* radio box
-* group box
-* tabbed dialog
-* button
-* tooltip
+- check box
+- radio box
+- group box
+- tabbed dialog
+- button
+- tooltip
 
 The above terminology is fully applicable to both native and web applications.
 
@@ -111,46 +110,46 @@ Check-up: give example how cursor is used to communicate pliancy.
 
 Trends:
 
-* affected by web
-* support for tiling
+- affected by web
+- support for tiling
 
 There exist(ed) OSes without GUI:
 
-* [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) - old enough to be before GUI
-* [Ubuntu Server](https://ubuntu.com/server/docs) - new but still lacks GUI to
-preserve resources.
-* [Amazon Bottlerocket](https://aws.amazon.com/bottlerocket/)
+- [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS) - old enough to be before GUI
+- [Ubuntu Server](https://ubuntu.com/server/docs) - new but still lacks GUI to
+  preserve resources.
+- [Amazon Bottlerocket](https://aws.amazon.com/bottlerocket/)
 
-We will NOT be talking about GUI anymore.  Why to NOT use GUI:
+We will NOT be talking about GUI anymore. Why to NOT use GUI:
 
-* you can reach higher productivity
-* your actions can be better automated
-* computing resources in the cloud and IoT may not have GUI.
+- you can reach higher productivity
+- your actions can be better automated
+- computing resources in the cloud and IoT may not have GUI.
 
-## Want to look cool? Use keyboard!  Even with GUI
+## Want to look cool? Use keyboard! Even with GUI
 
-* [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
-* [Windows keyboard shortcuts](https://support.microsoft.com/en-us/windows/windows-keyboard-shortcuts-3d444b08-3a00-abd6-67da-ecfc07e86b98)
-* oldie but still works: [IBM CUA](https://en.wikipedia.org/wiki/IBM_Common_User_Access)
+- [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+- [Windows keyboard shortcuts](https://support.microsoft.com/en-us/windows/windows-keyboard-shortcuts-3d444b08-3a00-abd6-67da-ecfc07e86b98)
+- oldie but still works: [IBM CUA](https://en.wikipedia.org/wiki/IBM_Common_User_Access)
 
 ## OS Concepts: Processes
 
 Process is NOT a window.
 
-Each [process](https://en.wikipedia.org/wiki/Process_(computing)) has:
+Each [process](<https://en.wikipedia.org/wiki/Process_(computing)>) has:
 
-* an ID
-* parent, and (maybe) children
-* state
-* command line
-* environment
-* cwd
-* threads
+- an ID
+- parent, and (maybe) children
+- state
+- command line
+- environment
+- cwd
+- threads
 
 Benefits:
 
-* compartmentalization
-* (mutual) protection
+- compartmentalization
+- (mutual) protection
 
 Process states:
 
@@ -166,15 +165,15 @@ Process memory map:
 
 Commonly used:
 
-* [Apple File System](https://en.wikipedia.org/wiki/Apple_File_System) -
-default choice in MacOS
-* [ntfs](https://en.wikipedia.org/wiki/NTFS)
-* [ext4](https://en.wikipedia.org/wiki/Ext4) - default choice in Linux
-* [zfs](https://en.wikipedia.org/wiki/ZFS) - best choice for
-[network-attached storage](https://en.wikipedia.org/wiki/Network-attached_storage)
-* [fat32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), better yet
-[exFAT](https://en.wikipedia.org/wiki/ExFAT) - good choice when you want for
-your USB drive to be portable across all the computing devices.
+- [Apple File System](https://en.wikipedia.org/wiki/Apple_File_System) -
+  default choice in MacOS
+- [ntfs](https://en.wikipedia.org/wiki/NTFS)
+- [ext4](https://en.wikipedia.org/wiki/Ext4) - default choice in Linux
+- [zfs](https://en.wikipedia.org/wiki/ZFS) - best choice for
+  [network-attached storage](https://en.wikipedia.org/wiki/Network-attached_storage)
+- [fat32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32), better yet
+  [exFAT](https://en.wikipedia.org/wiki/ExFAT) - good choice when you want for
+  your USB drive to be portable across all the computing devices.
 
 ### Linux File Permissions
 
@@ -192,25 +191,27 @@ your USB drive to be portable across all the computing devices.
 
 Why use command line:
 
-* efficient use of computer resources
-* (much higher) productivity
-* allows for custom scripts/actions
+- efficient use of computer resources
+- (much higher) productivity
+- allows for custom scripts/actions
 
 [Command Line Interpreters](https://en.wikipedia.org/wiki/List_of_command-line_interpreters)
 
 [zsh](https://en.wikipedia.org/wiki/Z_shell) made to all the operating systems:
-* native on MacOS and Linux
-* [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on Windows.
+
+- native on MacOS and Linux
+- [can be installed](https://dev.to/equiman/zsh-on-windows-without-wsl-4ah9) on Windows.
 
 Therefore:
-* [CLI Guidelines](https://clig.dev/)
-* [CLI Problems to solve](problems.md)
-* [CLI primer](cli-primer.md)
+
+- [CLI Guidelines](https://clig.dev/)
+- [CLI Problems to solve](problems.md)
+- [CLI primer](cli-primer.md)
 
 ### Command Line Use Examples
 
-* Editors, e.g. [vi](https://asokolsky.github.io/apps/vi.html), `nano`, [emacs](https://asokolsky.github.io/apps/emacs/)
-* [make and Makefile](https://asokolsky.github.io/apps/make/)
+- Editors, e.g. [vi](https://asokolsky.github.io/apps/vi.html), `nano`, [emacs](https://asokolsky.github.io/apps/emacs/)
+- [make and Makefile](https://asokolsky.github.io/apps/make/)
 
 ## File Formats
 
@@ -222,6 +223,6 @@ Therefore:
 
 Elsewhere:
 
-* More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
+- More in depth: [Linux SysOps Handbook](https://github.com/abarrak/linux-sysops-handbook/)
 
 Continue to [Cryptography](../Cryptography/)

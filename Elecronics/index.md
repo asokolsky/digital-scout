@@ -2,10 +2,10 @@
 
 From physics:
 
-* Voltage
-* Current
-* Ohm's Law
-* Resistance
+- Voltage
+- Current
+- Ohm's Law
+- Resistance
 
 ## AC vs DC
 
