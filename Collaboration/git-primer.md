@@ -2,20 +2,25 @@
 
 Exhaustive reference: [Pro Git](https://git-scm.com/book/en/v2).
 
-## Problem We Are Trying to Solve
+## Problems We Are Trying to Solve
 
-Version control. Ability to go back in time.  Collaborate.
-Examine changes between the versions.
+* Version control.
+* Ability to go back in time.
+* Collaborate.
+* Examine changes between the versions.
 
 ## How Does this work?
 
-Keep track of the incremental changes instead of the end result.  Keep these in `.git`.
+Keep track of the incremental changes instead of the end result.
+Keep these in the `.git` folder.
 
 ## What's there to control?
 
-Mostly text files.  Images or files in proprietary formats, e.g. `doc` or `xls`
-do not lend themselves well to being kept under version control.  Hence focus on
-the text-based [file formats](../Computing/file-formats.md), e.g. md, ini/toml,
+Mostly text files.
+
+Images or files in proprietary formats, e.g. `doc` or `xls` do not lend
+themselves well to being kept under version control.  Hence focus on the
+text-based [file formats](../Computing/file-formats.md), e.g. md, ini/toml,
 json, yaml.
 
 ## Prerequisites
@@ -28,11 +33,17 @@ Proprietary CLIs recommended for work with remote repo:
 * [gh](https://docs.github.com/en/github-cli/github-cli/about-github-cli) for github
 * [glab](https://docs.gitlab.com/cli/) for gitlab
 
+Specifically learn and use:
+
+* `gh auth status` / `glab auth status`
+* `gh auth login` / `glab auth login`
+
 ## Start
 
 Create a few text files, e.g. of md type.
 
 [Create repo](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init):
+
 ```sh
 git init
 ```
@@ -56,7 +67,6 @@ About GitHub [PR Review](https://docs.github.com/en/pull-requests/collaborating-
 
 GitLab calls Pull Request a Merge Request.
 About GitLab [MR Review](https://docs.gitlab.com/user/project/merge_requests/reviews/).
-
 
 ## Merge Pull Request
 
