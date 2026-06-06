@@ -4,8 +4,8 @@
 
 Applications for:
 
-- Authentication
-- Authorization.
+- [Authentication](https://en.wikipedia.org/wiki/Authentication) - who are you?
+- [Authorization](https://en.wikipedia.org/wiki/Authorization) - are you allowed to do it?
 
 ## Hash Functions
 
