@@ -114,3 +114,9 @@ Goal: understand why "software is eating the world".
 - sell your services
 
 [more](Career/)
+
+## Practical Projects
+
+I think of these as internship projects:
+
+- [Enterprise WiFi](Project-00-WiFi/)

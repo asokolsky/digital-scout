@@ -56,14 +56,14 @@ Cryptography
 
 ### Public Key Cryptography Applications
 
-- Secure Web Communications: SSL/TLS.  The website’s SSL/TLS certificate proves its identity, ensuring the encrypted traffic cannot be intercepted.
+- Secure Web Communications: SSL/TLS. The website’s SSL/TLS certificate proves its identity, ensuring the encrypted traffic cannot be intercepted.
 
-- Digital Signatures & Non-Repudiation.  Verifies exactly who wrote a message and ensures it hasn't been tampered with.  A sender uses their private key to "sign" a digital document or email. The recipient uses the sender's public key to verify the signature. This guarantees the author’s identity and prevents them from denying they sent it (non-repudiation).
+- Digital Signatures & Non-Repudiation. Verifies exactly who wrote a message and ensures it hasn't been tampered with. A sender uses their private key to "sign" a digital document or email. The recipient uses the sender's public key to verify the signature. This guarantees the author’s identity and prevents them from denying they sent it (non-repudiation).
 
-- Cryptocurrency & Blockchain.  Manages asset ownership and secures transactions on decentralized networks.  A user's public key acts as their publicly visible wallet address (where others can send funds). The private key functions as the password required to authorize and sign outbound transactions.
+- Cryptocurrency & Blockchain. Manages asset ownership and secures transactions on decentralized networks. A user's public key acts as their publicly visible wallet address (where others can send funds). The private key functions as the password required to authorize and sign outbound transactions.
 
 - Secure Email & File Transfer. Protects sensitive communications from interception.Tools like PGP/GPG (Pretty Good Privacy) use public keys to encrypt emails or files. Once encrypted with the intended recipient's public key, only that person's private key can unlock the message.
 
 - Secure Remote Access (SSH Keys). Allows system administrators to securely log into remote servers. Replaces traditional passwords with key pairs. The public key is stored on the remote server, while the private key remains locally on the user's computer, validating the login through a cryptographic handshake.
 
-- Code & Software Signing.  Ensures software hasn't been altered by malicious third parties during distribution. Software developers sign their executables and patches using their private key. Operating systems or end-user devices use the developer's public key to verify the signature, confirming the software is authentic and legitimate.
+- Code & Software Signing. Ensures software hasn't been altered by malicious third parties during distribution. Software developers sign their executables and patches using their private key. Operating systems or end-user devices use the developer's public key to verify the signature, confirming the software is authentic and legitimate.
