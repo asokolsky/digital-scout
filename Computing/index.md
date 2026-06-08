@@ -9,10 +9,7 @@ Why relevant:
 - ubiquity
 - it is cool to know it
 
-More computing:
-
-- [Skills](skills.md)
-- [Tasks](tasks.md)
+Computing [Problems](problems.md).
 
 ## Math
 

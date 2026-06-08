@@ -4,9 +4,7 @@ layout: default
 
 # Internet
 
-Sources:
-
-- https://en.wikipedia.org/wiki/Internet
+[wiki Internet](https://en.wikipedia.org/wiki/Internet)
 
 ## Governance
 
@@ -76,26 +74,14 @@ Application Protocols:
   [HTTPS](https://en.wikipedia.org/wiki/HTTPS)
 - [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
 
-## WiFi
+Physical layer:
 
-https://en.wikipedia.org/wiki/Wi-Fi
-
-- Band
-- Bandwidth
+- [Ethernet](https://en.wikipedia.org/wiki/Ethernet)
+- [WiFi](https://en.wikipedia.org/wiki/Wi-Fi) - Band vs Bandwidth
 
 ## IoT
 
 [Internet of things](https://en.wikipedia.org/wiki/Internet_of_things)
-
-## Internet Tasks
-
-- identify endpoint IP address, default gateway, DHCP server, DNS server
-- configure personal router
-- configure WiFi AP
-- set-up a game server
-- play a video file from your computer on your appleTV.
-- configure an IoT device to use newly setup WiFi access point
-- use VPN
 
 ## In the News
 

@@ -4,13 +4,14 @@ layout: default
 
 # Collaboration
 
-Can we scale up the results by collaborating?
+Can we scale up the results by collaborating with other people and AI agents?
 
 Why relevant: ubiquity.
 
 Success scenarios: engineering disciplines, high tech businesses, teams of script writers for serials.
 
-Failure scenarios: classical and modern literature, art.
+Failure scenarios: classical and modern literature, art.  Even that begins to change - look at the
+[teams of script writers](https://www.networkisa.org/screenwriting-articles/view/the-screenwriters-guide-to-writers-groups)
 
 Goal: deliver repeatable business results
 

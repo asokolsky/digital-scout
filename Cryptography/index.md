@@ -11,6 +11,8 @@ Applications for:
 - [Authentication](https://en.wikipedia.org/wiki/Authentication) - who are you?
 - [Authorization](https://en.wikipedia.org/wiki/Authorization) - are you allowed to do it?
 
+[Practical Problems](problems.md)
+
 ## Hash Functions
 
 [Hash functions](https://en.wikipedia.org/wiki/Cryptography#Cryptographic_hash_functions)
