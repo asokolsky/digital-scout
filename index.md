@@ -19,3 +19,7 @@ Skills and notes for thriving in the digital world.
 - [Cryptography](Cryptography/)
 - [Electronics](Electronics/)
 - [Fitness](Fitness/)
+
+## Practical Projects
+
+- [Enterprise WiFi](Project-00-WiFi/)

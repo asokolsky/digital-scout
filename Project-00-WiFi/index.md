@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Project-00-WiFi README
 
 ## Context
