@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Physics and Math
 
 Laws of physics - ubiquity of application (or lack thereof) - what does it mean to "know" how things work.

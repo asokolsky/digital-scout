@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Soft Skills
 
 From [wiki](https://en.wikipedia.org/wiki/Soft_skills):

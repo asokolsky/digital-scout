@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Practical CLI Problems
 
 ### Wildcard Interpretation

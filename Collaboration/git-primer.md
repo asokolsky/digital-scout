@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Git Primer
 
 Exhaustive reference: [Pro Git](https://git-scm.com/book/en/v2).

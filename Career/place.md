@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # What is Your Place/Distribution
 
 You will be employed:

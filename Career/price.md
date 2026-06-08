@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # What is Your Price?
 
 Here are few ways to get your bearings:

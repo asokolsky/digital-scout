@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Promotion
 
 Promotion here is an umbrella term for all the activities you undertake to communicate the value of the product, your professional persona.

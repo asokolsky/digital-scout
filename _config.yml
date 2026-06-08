@@ -1,0 +1,15 @@
+title: Digital Scout
+description: Skills to thrive in the digital world.
+url: "https://asokolsky.github.io"
+baseurl: "/digital-scout"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+header_pages:
+  - toc.md
+exclude:
+  - AGENTS.md

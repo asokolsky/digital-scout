@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Computing
 
 Why relevant:

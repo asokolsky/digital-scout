@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cryptography
 
 [wiki](https://en.wikipedia.org/wiki/Cryptography)

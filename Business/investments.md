@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Investments
 
 ## Fundamental Instruments

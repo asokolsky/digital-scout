@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Business, Accounting, Investments
 
 [The Company: A Short History of a Revolutionary Idea](https://techratchet.com/2021/10/29/book-summary-the-company-by-micklethwait-and-woolridge/)

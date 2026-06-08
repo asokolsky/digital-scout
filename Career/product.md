@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # What is Your Product?
 
 Your professional persona is described like this:

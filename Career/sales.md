@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Selling Your Professional Persona
 
 As a sales person (of your professional persona) you should project energetic and competent demeanor.

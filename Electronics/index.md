@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Electronics
 
 From physics:

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Programming
 
 Here are some [programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm) and some examples.
@@ -52,4 +56,5 @@ Why bother: absence of side-effects makes it the best choice for parallel progra
 
 ## Examples
 
-[java-animals](java-animals/)
+- [java-animals](java-animals/)
+- [java-list](java-list/)

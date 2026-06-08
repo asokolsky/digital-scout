@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # File Formats
 
 Binary vs text-based:

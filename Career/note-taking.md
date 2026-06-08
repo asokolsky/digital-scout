@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Personal Productivity: Note Taking
 
 Effective note taking is important!

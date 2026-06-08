@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HOWTO Pick Major
 
 ## Role Models

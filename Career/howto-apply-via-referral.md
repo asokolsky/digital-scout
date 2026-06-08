@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HOWTO Apply via Referral
 
 Usually the referrer gets paid if the referred is hired. If your application is already in the company database, the referrer is NOT paid. This will significantly reduce their motivation to help you. Therefore the sequence of the steps IS important:

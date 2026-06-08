@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Basic Linux Terminal Commands
 
 ## Context

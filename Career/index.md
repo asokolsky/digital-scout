@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Career, Job Search
 
 When you build your career you wear multiple hats:

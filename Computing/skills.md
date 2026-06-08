@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Computing Skills
 
 - use command line

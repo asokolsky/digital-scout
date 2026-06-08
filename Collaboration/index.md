@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Collaboration
 
 Can we scale up the results by collaborating?

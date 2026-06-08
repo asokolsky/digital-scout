@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Product (Your Career) Development
 
 Your product (professional persona) features are a combination of your [Soft](../Collaboration/soft-skills.md) and Hard skills.
