@@ -5,7 +5,7 @@
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if site.description -%}
-      <div class="site-description">{{ site.description | escape }}</div>
+      <sub class="site-description">{{ site.description | escape }}</sub>
     {%- endif -%}
 
     {%- if page_paths -%}
