@@ -35,6 +35,15 @@ and pipe tables.
   and trailing-whitespace cleanup.
 - Let mdformat normalize list markers and table alignment.
 
+## Sources
+
+- When adding or materially changing factual claims from external references,
+  save the source links in the edited Markdown file. Prefer inline links near
+  the claim or a `## Sources` section.
+- For legal, financial, tax, medical, or current-event notes, prefer primary
+  sources and include the relevant tax year, effective date, or publication date
+  when the rule is time-sensitive.
+
 ## Git Hygiene
 
 - The worktree may already contain user edits. Do not revert unrelated changes.
