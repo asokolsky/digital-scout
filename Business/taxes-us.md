@@ -4,10 +4,21 @@ layout: default
 
 # US Taxes
 
-Definitions
+## Filing Status
+
+[IRS Interactive Tax Assistant](https://www.irs.gov/help/ita/what-is-my-filing-status):
+
+- Single: unmarried, divorced, or legally separated taxpayers who do not qualify for another status.
+- Married Filing Jointly: married couples combining their incomes and deductions on a single return. This usually results in the lowest overall tax burden.
+- Married Filing Separately: married couples who choose to file individual returns. This may result in lower taxes for some individuals but disqualifies you from certain credits.
+- Head of Household: For unmarried individuals who pay more than half the cost of maintaining a home for a qualifying dependent, e.g. a child or an elderly parent.
+- Qualifying Surviving Spouse: widowed taxpayers with a dependent child. This status maintains the lower tax rates of Married Filing Jointly for up to two years after the spouse's death.
+
+## Terminology
 
 - [Gross Income](https://taxfoundation.org/taxedu/glossary/gross-income/), a.k.a. Total Income.
-- [Adjusted Gross Income](https://taxfoundation.org/taxedu/glossary/adjusted-gross-income-agi/) = GI - adjustments, a.k.a. above-the-line deductions. AGI is reported on Form 1040 line 11
+- [Adjusted Gross Income](https://taxfoundation.org/taxedu/glossary/adjusted-gross-income-agi/) = GI - [above-the-line deductions](https://en.wikipedia.org/wiki/Above-the-line_deduction).
+  AGI is reported on Form 1040 line 11
 - [Modified Adjusted Gross Income](https://www.hrblock.com/tax-center/income/other-income/modified-adjusted-gross-income/), NOT reported on Form 1040, must be calculated separately.
 - Taxable Income = AGI - deductions
 - Deductions - reduce your TI, the effect depends on your marginal tax rate.
@@ -29,7 +40,7 @@ See, e.g. https://guide.sillymoney.com/
 
 ## Marginal vs Effective Tax Rates
 
-https://www.irs.gov/filing/federal-income-tax-rates-and-brackets
+[federal-income-tax-rates-and-brackets](https://www.irs.gov/filing/federal-income-tax-rates-and-brackets)
 
 Key to understanding - plot of Taxes vs TI.
 
@@ -37,7 +48,7 @@ Key to understanding - plot of Taxes vs TI.
 
 Observe:
 
-- varying marginal rates - these define how the steep the line goes
+- varying marginal rates - these define how steep the line goes
 - effective tax rate
 - effective tax rate ≤ marginal tax rate.
 
@@ -46,7 +57,7 @@ Observe:
 Most Common Itemized deductions:
 
 - State and Local Taxes (SALT): property taxes, state income and sales taxes, cap: $40k
-- Mortgage interest, upto $750k
+- Mortgage interest, up to $750k
 - Charitable contributions
 - Medical expenses, if > 7.5% AGI
 
@@ -62,6 +73,6 @@ Deductions reduce your taxable income, hence the effect depends on your marginal
 
 Credits reduce your tax bill dollar-for-dollar.
 
-Nonrefundable Credits: can reduca tax to zero, excess is lost, e.g. child and dependent care credit, Lifetime learning credit.
+Nonrefundable Credits: can reduce tax to zero, excess is lost, e.g. child and dependent care credit, Lifetime learning credit.
 
 Refundable Credits: create a refund beyond taxes paid, e.g. earned income credit,
