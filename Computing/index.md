@@ -218,6 +218,11 @@ Therefore:
 
 [file formats](file-formats.md)
 
+## Frontier Models
+
+[Using frontier models](frontier-models.md) for chat, coding agents, and
+workflow automation.
+
 ## More Reading
 
 [Programming](Programming/)

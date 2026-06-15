@@ -9,7 +9,5 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-header_pages:
-  - toc.md
 exclude:
   - AGENTS.md

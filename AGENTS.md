@@ -8,9 +8,9 @@ This GitHub repo is made mostly of Markdown notes.
 Markdown files may include frontmatter, raw HTML, pasted command output,
 and pipe tables.
 
-- `toc.md` is the top-level table of contents. When adding, renaming, or
-  removing top-level topic pages or directories, check whether `toc.md` needs
-  a matching update.
+- `index.md` is the home page and top-level table of contents. When adding,
+  renaming, or removing top-level topic pages or directories, check whether
+  `index.md` needs a matching update.
 
 ## Formatting And Hooks
 

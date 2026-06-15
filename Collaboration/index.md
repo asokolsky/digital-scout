@@ -10,7 +10,7 @@ Why relevant: ubiquity.
 
 Success scenarios: engineering disciplines, high tech businesses, teams of script writers for serials.
 
-Failure scenarios: classical and modern literature, art.  Even that begins to change - look at the
+Failure scenarios: classical and modern literature, art. Even that begins to change - look at the
 [teams of script writers](https://www.networkisa.org/screenwriting-articles/view/the-screenwriters-guide-to-writers-groups)
 
 Goal: deliver repeatable business results

@@ -24,25 +24,25 @@ A: setting environment variable for one command.
 
 ## Edit command line
 
-* move cursor by char/word/ beginning/end of the line
-* delete character/word
-* use copy/paste
+- move cursor by char/word/ beginning/end of the line
+- delete character/word
+- use copy/paste
 
 ## Command Line incremental search and completions
 
-* recall command starting with `ls`
+- recall command starting with `ls`
 
 ## Use pipe to connect output of one command with input of another
 
-* save the list of files in this directory into /tmp/files.txt, one file per line.
+- save the list of files in this directory into /tmp/files.txt, one file per line.
 
 ## Edit a file in a terminal
 
-* open
-* enter new text
-* delete character/word/line
-* save
-* use search/replace
+- open
+- enter new text
+- delete character/word/line
+- save
+- use search/replace
 
 ## How many processes are running on your computer right now?
 

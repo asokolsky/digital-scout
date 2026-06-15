@@ -4,7 +4,7 @@
 
 Provide the citizenry with the skills to thrive in the digital world.
 
-[Table of Contents](toc.md)
+[Digital Scout](index.md)
 
 This is published at https://asokolsky.github.io/digital-scout/
 
