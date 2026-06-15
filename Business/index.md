@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Business
 ---
 
 # Business, Accounting, Investments

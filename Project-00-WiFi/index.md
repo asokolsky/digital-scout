@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Project-00-WiFi
 ---
 
 # Project-00-WiFi README

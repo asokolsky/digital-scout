@@ -9,5 +9,15 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+header_pages:
+  - Business/index.md
+  - Career/index.md
+  - Collaboration/index.md
+  - Computing/index.md
+  - Cryptography/index.md
+  - Electronics/index.md
+  - Fitness/index.md
+  - Internet/index.md
+  - Physics/index.md
 exclude:
   - AGENTS.md
