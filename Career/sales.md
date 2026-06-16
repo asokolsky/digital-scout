@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Selling Your Professional Persona
+parent: Career
 ---
 
 # Selling Your Professional Persona

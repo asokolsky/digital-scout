@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Personal Productivity: Note Taking"
+parent: Career
 ---
 
 ## Personal Productivity: Note Taking

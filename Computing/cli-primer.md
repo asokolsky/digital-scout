@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Basic Linux Terminal Commands
+parent: Computing
 ---
 
 # Basic Linux Terminal Commands

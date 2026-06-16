@@ -1,5 +1,7 @@
 ---
 layout: default
+title: HOWTO Pick Major
+parent: Career
 ---
 
 # HOWTO Pick Major

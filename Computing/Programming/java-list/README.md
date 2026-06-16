@@ -1,3 +1,9 @@
+---
+layout: default
+title: Java List README
+parent: Java List
+---
+
 # README
 
 I used https://www.jdoodle.com/online-java-compiler to play with this code.

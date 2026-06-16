@@ -1,5 +1,7 @@
 ---
 layout: default
+title: HOWTO Apply via Referral
+parent: Career
 ---
 
 # HOWTO Apply via Referral

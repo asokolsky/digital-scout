@@ -1,5 +1,7 @@
 ---
 layout: default
+title: LAN IP Addresses
+parent: Project-00-WiFi
 ---
 
 # LAN IP Addresses

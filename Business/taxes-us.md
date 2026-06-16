@@ -1,5 +1,7 @@
 ---
 layout: default
+title: US Taxes
+parent: Business and Investments
 ---
 
 # US Taxes

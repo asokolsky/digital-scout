@@ -1,5 +1,7 @@
 ---
 layout: default
+title: What is Your Product?
+parent: Career
 ---
 
 # What is Your Product?

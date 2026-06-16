@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Using Frontier Models
+parent: Computing
 ---
 
 # Using Frontier Models

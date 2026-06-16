@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Business
+title: Business and Investments
 ---
 
-# Business, Accounting, Investments
+# Business and Investments
 
 [The Company: A Short History of a Revolutionary Idea](https://techratchet.com/2021/10/29/book-summary-the-company-by-micklethwait-and-woolridge/)
 
@@ -35,7 +35,7 @@ Concepts:
 
 ## Investments
 
-[Investments](investments.md)
+[Investments](investments.md) and [investment accounts](accounts.md).
 
 ## Personal Financing and Taxes
 

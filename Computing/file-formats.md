@@ -1,5 +1,7 @@
 ---
 layout: default
+title: File Formats
+parent: Computing
 ---
 
 # File Formats

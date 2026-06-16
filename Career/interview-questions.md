@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Interview Questions
+parent: Career
 ---
 
 # Interview Questions

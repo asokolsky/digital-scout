@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Git Primer
+parent: Collaboration
 ---
 
 # Git Primer

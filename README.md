@@ -1,3 +1,9 @@
+---
+layout: default
+title: digital-scout README
+parent: Digital Scout
+---
+
 # digital-scout README
 
 ## Purpose

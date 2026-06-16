@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Product (Your Career) Development
+parent: Career
 ---
 
 # Product (Your Career) Development

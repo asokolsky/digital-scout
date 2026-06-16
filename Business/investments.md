@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Investments
+parent: Business and Investments
 ---
 
 # Investments

@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Practical Problems
+parent: Collaboration
 ---
 
 # Practical Problems

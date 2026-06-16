@@ -1,5 +1,7 @@
 ---
 layout: default
+title: What is Your Place/Distribution
+parent: Career
 ---
 
 # What is Your Place/Distribution

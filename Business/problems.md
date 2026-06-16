@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Practical Problems
+parent: Business and Investments
 ---
 
 # Practical Problems

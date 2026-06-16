@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Soft Skills
+parent: Collaboration
 ---
 
 # Soft Skills

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Java Animals README
+parent: Java Animals
+---
+
 # README
 
 ## Prerequisites
