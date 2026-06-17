@@ -209,6 +209,7 @@ Therefore:
 - [CLI Guidelines](https://clig.dev/)
 - [CLI Problems to solve](problems.md)
 - [CLI primer](cli-primer.md)
+- [Slash Commands](slash-commands.md)
 
 ### Command Line Use Examples
 
