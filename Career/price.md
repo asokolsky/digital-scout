@@ -97,15 +97,17 @@ What to ask:
 Main risk: the option can expire worthless if the company value does not rise
 above the strike price, or if you cannot afford to exercise and pay taxes.
 
-Tax note: IRS Topic 427 says nonstatutory stock options without readily
-determined market value generally do not create a taxable event at grant, but
-income is included when exercised based on the value of the stock received less
-the amount paid.
+#### Tax Treatment
+
+[IRS Topic 427](https://www.irs.gov/taxtopics/tc427) says nonstatutory stock
+options without readily determined market value generally do
+not create a taxable event at grant, but income is included when exercised based
+on the value of the stock received less the amount paid.
 
 ### Incentive Stock Options, ISOs
 
-ISOs are stock options with special tax treatment, but they are available only to
-employees and come with more constraints.
+ISOs are stock options with special tax treatment, but they are available only
+to employees and come with more constraints.
 
 What to ask:
 
@@ -118,10 +120,12 @@ Main risk: optimal tax treatment may require holding exercised shares, which
 means you can owe tax before you have liquidity. A private-company ISO can
 therefore become a real cash-flow problem.
 
-Tax note: IRS Topic 427 says statutory stock options generally are not included
-in gross income at grant or exercise, but exercising an ISO may trigger
-alternative minimum tax and selling before holding-period requirements can turn
-income into ordinary wage income.
+#### Tax Treatment
+
+[IRS Topic 427](https://www.irs.gov/taxtopics/tc427) says statutory
+stock options generally are not included in gross income at grant or exercise,
+but exercising an ISO may trigger alternative minimum tax and selling before
+holding-period requirements can turn income into ordinary wage income.
 
 ### Restricted Stock Units, RSUs
 
@@ -141,8 +145,36 @@ What to ask:
 Main risk: you can become over-concentrated in employer stock. If both your job
 and your portfolio depend on the same company, you are taking correlated risk.
 
-Tax note: RSUs are generally taxed as compensation when they vest or settle.
-After that, any further gain or loss is usually a capital gain or loss.
+#### Tax Treatment
+
+An ordinary RSU grant usually is not taxed when granted because it is only a
+company promise to deliver stock or cash later. The main taxable event is usually
+vesting or settlement, when the fair market value of the delivered stock or cash
+is treated as wage income and should show up on
+[Form W-2](https://www.irs.gov/forms-pubs/about-form-w-2). Employers often
+withhold by keeping back shares or cash, but withholding is only a prepayment.
+Your actual tax bill depends on your marginal rate, payroll taxes, state taxes,
+and other income.
+
+After shares are delivered, your cost basis is generally the value included in
+wage income. If you sell immediately, there may be little capital gain or loss,
+but you still owe tax on the wage income from vesting or settlement. If you hold
+the shares, later appreciation or decline is capital gain or loss measured from
+that basis, with the holding period starting when the shares are delivered. RSUs
+are different from restricted stock: because no stock is normally transferred at
+grant, a normal section 83(b) election is not available. For some private-company
+[qualified equity grants](https://www.irs.gov/publications/p525), section 83(i)
+may allow a limited deferral election, but that is a special case to verify from
+the plan documents.
+
+#### Example
+
+You receive 100 RSUs. The stock price is $50 when RSUs vest. That creates $5,000
+of wage income. If the company withholds 25 shares for taxes, you keep 75 shares,
+but the taxable wage income is still based on the full 100 vested shares. Your
+basis in the 75 shares you keep is $50 per share. If you later sell those 75
+shares for $60, the extra $750 is capital gain. If you sell them for $45, the
+$375 decline is a capital loss.
 
 ### Employee Stock Purchase Plan, ESPP
 
@@ -160,9 +192,40 @@ What to ask:
 Main risk: the discount can be attractive, but holding the shares afterward
 adds employer-stock concentration risk.
 
-Tax note: IRS Topic 427 treats options granted under an employee stock purchase
-plan as statutory stock options and points to Form 3922 for reporting stock
-acquired under an ESPP.
+#### Tax Treatment
+
+A tax-qualified ESPP under
+[section 423](https://www.irs.gov/forms-pubs/about-form-3922) is treated as a
+statutory stock option. [Form 3922](https://www.irs.gov/pub/irs-pdf/f3922.pdf)
+says no income is recognized when you exercise the option to buy the shares, but
+you must report gain or loss when you sell or otherwise dispose of them. Keep
+Form 3922 because it gives the grant date, exercise date, grant-date fair market
+value, exercise-date fair market value, purchase price, and shares transferred.
+
+The tax answer depends on whether the sale is a qualifying or disqualifying
+disposition. [Publication 525](https://www.irs.gov/publications/p525) gives the
+usual holding-period test: sale after the later of one year from the share
+transfer date or two years from the option grant date. If you meet that test and
+the option was granted at a discount, ordinary wage income is generally limited
+to the lesser of the grant-date discount or the actual gain at sale; extra gain
+is capital gain. If you sell too early, ordinary wage income is generally the
+exercise-date fair market value minus the purchase price, and the remaining
+difference between sale proceeds and adjusted basis is capital gain or loss.
+Payroll deductions fund the option price; their timing and amount do not change
+the initial basis. In a disqualifying sale, increase basis by the ordinary income
+amount so the same spread is not taxed twice.
+
+#### Example
+
+The stock is $100 at grant and $120 at purchase.
+You buy at 85% of the lower of the grant-date price or purchase-date price.
+So you buy 100 shares at $85 per share and pay $8,500. If you later sell after satisfying
+the holding period for $130 per share, ordinary wage income is generally limited
+to the lesser of the grant-date discount ($15 per share) or the actual gain ($45
+per share), so $1,500 is ordinary income and the remaining $3,000 is capital
+gain. If you sell too early at the same $130 price, ordinary wage income is based
+on the purchase-date spread: $120 minus $85, or $3,500 total. The remaining
+$1,000 is capital gain.
 
 ## Offer Comparison Checklist
 
@@ -214,6 +277,15 @@ If the company cannot move base salary:
   2024 median pay and 2024-2034 outlook, checked June 16, 2026.
 - IRS, [Topic no. 427, Stock options](https://www.irs.gov/taxtopics/tc427),
   page last reviewed or updated April 28, 2026.
+- IRS, [About Form W-2, Wage and Tax Statement](https://www.irs.gov/forms-pubs/about-form-w-2),
+  page last reviewed or updated March 30, 2026.
+- IRS, [Publication 525, Taxable and Nontaxable Income](https://www.irs.gov/publications/p525),
+  2025 return publication, current revision posted February 25, 2026, checked
+  June 18, 2026.
+- IRS, [About Form 3922, Transfer of Stock Acquired Through An Employee Stock Purchase Plan Under Section 423(c)](https://www.irs.gov/forms-pubs/about-form-3922),
+  page last reviewed or updated June 7, 2026.
+- IRS, [Form 3922](https://www.irs.gov/pub/irs-pdf/f3922.pdf), April 2025
+  revision.
 - Motion Recruitment, [IT Salary Guide](https://motionrecruitment.com/it-salary),
   checked June 16, 2026.
 - Parkworth, [Equity Compensation](https://www.parkworth.com/equity-compensation),

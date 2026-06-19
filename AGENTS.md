@@ -38,8 +38,10 @@ and pipe tables.
 ## Sources
 
 - When adding or materially changing factual claims from external references,
-  save the source links in the edited Markdown file. Prefer inline links near
-  the claim or a `## Sources` section.
+  save the source links in the edited Markdown file. Prefer inline links or
+  nearby references at the claim they support; use a `## Sources` section as a
+  bibliography or supplement, not as the only reference for claims that need
+  traceable support.
 - For legal, financial, tax, medical, or current-event notes, prefer primary
   sources and include the relevant tax year, effective date, or publication date
   when the rule is time-sensitive.
@@ -49,3 +51,5 @@ and pipe tables.
 - The worktree may already contain user edits. Do not revert unrelated changes.
 - Keep changes focused on the requested files and the supporting formatter or
   hook configuration needed to make checks pass.
+- When asked to commit, use Conventional Commits style unless the user provides
+  a different explicit commit-message style or exact commit message.
