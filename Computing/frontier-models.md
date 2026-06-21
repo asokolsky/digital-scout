@@ -114,7 +114,7 @@ version control, and gives every future agent the same workflow.
 
 ## Safety and Quality
 
-- Use [version control](../Collaboration/git-primer.md) so changes are visible
+- Use [version control](../Collaboration/git-primer.html) so changes are visible
   and reversible.
 - Do not paste secrets unless the tool and task truly require them.
 - Be skeptical of answers about fast-changing products, APIs, laws, prices, and
@@ -133,5 +133,5 @@ version control, and gives every future agent the same workflow.
 - Ask a model to improve a file, then inspect the diff. What changed? What
   should you reject?
 
-See also: [CLI primer](cli-primer.md), [file formats](file-formats.md), and
-[git primer](../Collaboration/git-primer.md).
+See also: [CLI primer](cli-primer.html), [file formats](file-formats.html), and
+[git primer](../Collaboration/git-primer.html).

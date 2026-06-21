@@ -7,9 +7,8 @@ title: Physics
 
 Laws of physics - ubiquity of application (or lack thereof) - what does it mean to "know" how things work.
 
-[Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
-
-[thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
+- [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
+- [Thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
 
 ## Newtonian Physics
 
@@ -19,7 +18,7 @@ Laws of physics - ubiquity of application (or lack thereof) - what does it mean 
 
 Newton laws, Newtonian Determinism.
 
-limits, derivatives
+Limits and derivatives
 
 ### Gases and Liquids
 

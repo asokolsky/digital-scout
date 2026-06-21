@@ -10,7 +10,7 @@ Why relevant:
 - ubiquity
 - it is cool to know it
 
-Computing [Problems](problems.md).
+Computing [Problems](problems.html).
 
 ## Math
 
@@ -207,27 +207,23 @@ Why use command line:
 Therefore:
 
 - [CLI Guidelines](https://clig.dev/)
-- [CLI Problems to solve](problems.md)
-- [CLI primer](cli-primer.md)
-- [Slash Commands](slash-commands.md)
+- [CLI Problems to solve](problems.html)
+- [CLI primer](cli-primer.html)
+- [Slash Commands](slash-commands.html)
 
 ### Command Line Use Examples
 
 - Editors, e.g. [vi](https://asokolsky.github.io/apps/vi.html), `nano`, [emacs](https://asokolsky.github.io/apps/emacs/)
 - [make and Makefile](https://asokolsky.github.io/apps/make/)
 
-## File Formats
+## Relevant Topics
 
-[file formats](file-formats.md)
-
-## Frontier Models
-
-[Using frontier models](frontier-models.md) for chat, coding agents, and
+- [file formats](file-formats.html)
+- [Using frontier models](frontier-models.html) for chat, coding agents, and
 workflow automation.
+- [Programming](Programming/)
 
-## More Reading
-
-[Programming](Programming/)
+[Problems](problems.html)
 
 Elsewhere:
 

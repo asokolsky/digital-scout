@@ -7,124 +7,24 @@ title: Digital Scout
 
 Skills and notes for thriving in the digital world.
 
-## Physics and Math
+[Physics and Math](Physics/) are foundational for laws of nature, the scientific method used to gain
+knowledge of such laws.
 
-Why relevant: foundational for both laws of nature and the scientific methods
-used to gain knowledge of such laws.
+[Computing](Computing/) is ubiquitous.
 
-Topics:
+[Internet](Internet/) is ubiquitous.
 
-- Laws of physics - ubiquity of application (or lack thereof)
-- [Occam's razor](https://en.wikipedia.org/wiki/Occam%27s_razor#Later_formulations)
-- [thought experiment](https://en.wikipedia.org/wiki/Thought_experiment)
-- electricity, magnetism, electromagnetic field
-- ohm's law
-- limits, derivatives
-- [fourier transform](https://en.wikipedia.org/wiki/Fourier_transform)
-- [particles vs waves](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)
+[Cryptography](Cryptography/) is foundation of your privacy.
 
-[more](Physics/)
+[Collaboration](Collaboration/) with humans and AI is the opnly way to achieve the results.
 
-## Computing
+[Electronics](Electronics/) serves as foundation for physical AI.
 
-Why relevant: ubiquity
+[Money, Business, Accounting and Investments](Business/) to build wealth.
 
-Skills:
+[Career and Professional Growth](Career/).
 
-- gauge computer performance, identify a bottleneck
-- use command line
-- use pipe to connect output of one command with input of another
-- create a script
-- edit a file in a terminal
-
-[more](Computing/)
-
-## Internet
-
-Why relevant: ubiquity
-
-Goals:
-
-- configure personal router
-- set-up a game server
-- play a video file from your computer on your appleTV.
-
-Terminology:
-
-- URL
-- Endpoint
-- IP Address
-- Protocols: DNS, DHCP, HTTP
-
-[more](Internet/)
-
-## Cryptography
-
-Why relevant: ubiquity
-
-- one-way hash
-- shared key
-- public key
-
-Goals:
-
-- setup passkeys
-
-[more](Cryptography/)
-
-## Collaboration
-
-Goals:
-
-- use your soft skills
-- use git for version control of the text documents
-- static web site generation
-- collaborate with a team on a website
-
-[more](Collaboration/)
-
-## Electronics
-
-Why relevant: ubiquity of power supplies
-
-- analog vs digital
-- ohm's law
-- pwm
-
-Tasks to accomplish:
-
-- calculate total efficiency of your laptop
-
-Skills:
-
-- use amp/volt/ohm meter
-
-[more](Electronics/)
-
-## Money, Business, Accounting, Investments
-
-Why relevant: ubiquity of actors
-
-Goal: understand why "software is eating the world".
-
-- Business metrics, e.g. revenue vs profit, profit margin
-- financial statements: balance sheet, income statement
-- tax rate: marginal vs effective
-- accounting equation
-
-[more](Business/)
-
-## Career and Professional Growth
-
-- build your professional persona
-- promote yourself
-- sell your services
-
-[more](Career/)
-
-## Fitness
-
-[more](Fitness/)
+[Fitness](Fitness/)
 
 ## Practical Projects
 
