@@ -26,6 +26,8 @@ knowledge of such laws.
 
 [Fitness](Fitness/)
 
+[AI](AI/)
+
 ## Practical Projects
 
 I think of these as internship projects:

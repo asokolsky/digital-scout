@@ -64,6 +64,8 @@ As an employee, your compensation package may include:
 The above is a full list. In practice, the particular package rarely includes all
 of these items.
 
+[The value of employee equity depends a lot on volatility](https://devanshpanda.com/writing/volatility/) argues that you are getting an embedded [call option](../Business/investments.html) on startup equity that's worth multiple times more than what you would be willing to pay for it if you were investing.
+
 When comparing offers, convert everything to expected annual value:
 
 - Cash: base salary plus realistic bonus, not theoretical maximum bonus.
