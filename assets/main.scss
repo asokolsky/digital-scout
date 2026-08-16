@@ -1,0 +1,34 @@
+---
+---
+
+@import "minima";
+
+@media screen and (min-width: 600px) {
+  .site-header .wrapper {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    max-width: calc(1200px - 30px);
+  }
+
+  .site-title {
+    flex: 0 0 auto;
+  }
+
+  .site-nav {
+    flex: 1 1 auto;
+    float: none;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    white-space: nowrap;
+  }
+
+  .site-nav .trigger {
+    min-width: max-content;
+  }
+
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 12px;
+  }
+}

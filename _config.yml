@@ -13,6 +13,7 @@ relative_links:
   enabled: true
   collections: true
 header_pages:
+  - AI/index.md
   - Business/index.md
   - Career/index.md
   - Collaboration/index.md
