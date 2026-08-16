@@ -257,15 +257,10 @@ Before using AI for a task:
 1. Inspect commands before running them and treat retrieved content as untrusted.
 1. Save durable decisions and evidence outside the chat.
 
-## Check-ups
-
-- What context does a web chat see that a CLI agent does not?
-- What can a CLI agent do that a web chat usually cannot?
-- Why does `AGENTS.md` help more than repeating the same instruction in every
-  chat?
-- Ask a model to improve a file, then inspect the diff. What changed? What should
-  you reject?
-
 See also: [CLI primer](../Computing/cli-primer.html),
 [file formats](../Computing/file-formats.html), and
 [git primer](../Collaboration/git-primer.html).
+
+## Problems
+
+[Practical problems](problems.html)
