@@ -4,6 +4,9 @@ url: "https://asokolsky.github.io"
 baseurl: "/digital-scout"
 theme: minima
 markdown: kramdown
+mermaid:
+  version: "11.12.2"
+  theme: default
 plugins:
   - jekyll-relative-links
 relative_links:
