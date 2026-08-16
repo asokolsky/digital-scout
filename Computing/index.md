@@ -219,8 +219,6 @@ Therefore:
 ## Relevant Topics
 
 - [file formats](file-formats.html)
-- [Using frontier models](frontier-models.html) for chat, coding agents, and
-workflow automation.
 - [Programming](Programming/)
 
 [Problems](problems.html)

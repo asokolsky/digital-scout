@@ -13,16 +13,15 @@ Then we wanted computers to see, so the focus shifted to
 Today [large language models](https://en.wikipedia.org/wiki/Large_language_model)
 (LLMs) dominate the public discourse.
 
-[Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
-creates text, images, audio, video, or other content.
-An LLM is a generative model trained to process and produce language. Modern
-[multimodal models](https://en.wikipedia.org/wiki/Multimodal_learning) can work
-with text, images, and audio, but their
-exact capabilities heavily depend on the model.
-
 ## Generative AI
 
-Common uses include:
+[Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+creates text, images, audio, video, or other content. An LLM is a generative
+model trained to process and produce language.
+[Multimodal models](https://en.wikipedia.org/wiki/Multimodal_learning) work with
+text, images, and audio, but their exact capabilities heavily depend on the model.
+
+Common uses of Generative AI include:
 
 - Drafting, rewriting, and
   [summarizing text](https://en.wikipedia.org/wiki/Automatic_summarization)
@@ -126,27 +125,42 @@ flowchart TD
     agent -->|response or action| ui
 ```
 
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
-
-  document.querySelectorAll("pre > code.language-mermaid").forEach((code) => {
-    const diagram = code.parentElement;
-    diagram.className = "mermaid";
-    diagram.textContent = code.textContent;
-  });
-
-  mermaid.initialize({ startOnLoad: false });
-  await mermaid.run({ querySelector: ".mermaid" });
-</script>
-
 In this ChatGPT example, the interface and source files begin on the local
 device. Prompts and uploaded files are sent to the OpenAI cloud, where ChatGPT
 assembles context and runs model inference. Connected tools may be hosted by
 OpenAI or by external services.
 
+### Modes of Interaction
+
+| Mode          | Context                          | Sandbox                         |
+| ------------- | -------------------------------- | ------------------------------- |
+| Web chat      | chat history, uploaded files     | usually none                    |
+| API           | request payload                  | defined by the application      |
+| CLI agent     | folder, selected files, terminal | defined by the agent settings   |
+| IDE extension | open workspace, highlighted code | defined by the extension        |
+| App connector | app data and app permissions     | defined by connector permission |
+
+Context determines what the model knows. The sandbox controls what its tools can
+read, write, or run.
+
+### Better Requests
+
+A useful request states the goal, relevant context, constraints, desired output,
+and how to verify the result. For example:
+
+- "Explain this error from the failing command output and cite the responsible
+  file and line."
+- "Edit only `AI/index.md`, then run the Markdown formatter."
+- "Draft three options, recommend one, and explain the tradeoff."
+- "Make the smallest change that fixes the failing test."
+
+For open-ended work, ask for a plan first. For mechanical work, ask the agent to
+act and then inspect the diff.
+
 ## File Formats
 
-Favored are formats that make structure explicit and easy to inspect:
+Favored are [formats](../Computing/file-formats.html) that make structure
+explicit and easy to inspect:
 
 - [Markdown](https://en.wikipedia.org/wiki/Markdown) for prose and instructions
 - [JSON](https://en.wikipedia.org/wiki/JSON) for structured data exchanged with
@@ -201,6 +215,9 @@ user can invoke it explicitly. See the
 [OpenAI skills guide](https://learn.chatgpt.com/docs/build-skills) for one
 implementation.
 
+Create a skill when a repeated workflow has instructions or fragile steps that
+an agent should not rediscover each time.
+
 The travel repo's
 [`static-marker-map` skill](https://github.com/asokolsky/travels/blob/main/skills/static-marker-map/SKILL.md)
 uses a Python script to generate and verify a Leaflet HTML map from GeoJSON.
@@ -237,4 +254,18 @@ Before using AI for a task:
 1. Decide whether the model needs tools or current information.
 1. Request an output format that is easy to inspect or test.
 1. Verify important claims and actions independently.
+1. Inspect commands before running them and treat retrieved content as untrusted.
 1. Save durable decisions and evidence outside the chat.
+
+## Check-ups
+
+- What context does a web chat see that a CLI agent does not?
+- What can a CLI agent do that a web chat usually cannot?
+- Why does `AGENTS.md` help more than repeating the same instruction in every
+  chat?
+- Ask a model to improve a file, then inspect the diff. What changed? What should
+  you reject?
+
+See also: [CLI primer](../Computing/cli-primer.html),
+[file formats](../Computing/file-formats.html), and
+[git primer](../Collaboration/git-primer.html).
