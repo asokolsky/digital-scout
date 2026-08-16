@@ -25,7 +25,9 @@
   }
 
   .site-nav .trigger {
+    margin-inline: auto;
     min-width: max-content;
+    width: max-content;
   }
 
   .site-nav .page-link:not(:last-child) {
