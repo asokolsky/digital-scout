@@ -16,12 +16,13 @@ Today [large language models](https://en.wikipedia.org/wiki/Large_language_model
 ## Generative AI
 
 [Generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
-creates text, images, audio, video, or other content. An LLM is a generative
-model trained to process and produce language.
+creates text, images, audio, video, or other content.
+Many modern LLMs are generative models trained to process and produce language.
 [Multimodal models](https://en.wikipedia.org/wiki/Multimodal_learning) work with
 text, images, and audio, but their exact capabilities heavily depend on the model.
 
-Common uses of Generative AI include:
+Common uses of [Generative AI](https://www.ibm.com/think/topics/generative-ai)
+include:
 
 - Drafting, rewriting, and
   [summarizing text](https://en.wikipedia.org/wiki/Automatic_summarization)
@@ -66,18 +67,19 @@ while the
 Consider a simple chat with ChatGPT in a browser.
 
 A [large language model](https://en.wikipedia.org/wiki/Large_language_model)
-generates each response from its context. The application assembles that context
-from:
+uses its trained parameters and the supplied context to generate each response.
+The application assembles that context from:
 
 - System and user instructions
 - Previous messages
 - Uploaded or retrieved files, e.g. images, audio, and other supported inputs
 - Available tools and their results
 
-A [tool](https://en.wikipedia.org/wiki/Large_language_model#Tool_use) provides the
-[model](https://en.wikipedia.org/wiki/Machine_learning#Models)
-with access, e.g. web and file search, database queries, code execution. A tool definition tells the model how to request that
-capability. The application runs the tool and returns its result to the model.
+A [tool](https://en.wikipedia.org/wiki/Large_language_model#Tool_use) gives the
+[model](https://en.wikipedia.org/wiki/Machine_learning#Models) access to
+capabilities such as web search, file search, database queries, or code
+execution. Its definition tells the model when and how to request that capability.
+The application runs the tool and returns its result to the model.
 
 Context is limited by the model's
 [context window](https://en.wikipedia.org/wiki/Context_window). Long
@@ -127,18 +129,19 @@ flowchart TD
 
 In this ChatGPT example, the interface and source files begin on the local
 device. Prompts and uploaded files are sent to the OpenAI cloud, where ChatGPT
-assembles context and runs model inference. Connected tools may be hosted by
-OpenAI or by external services.
+assembles context and runs model
+[inference](https://www.ibm.com/think/topics/ai-inference). Connected tools may
+be hosted by OpenAI or by external services.
 
 ### Modes of Interaction
 
-| Mode          | Context                          | Sandbox                         |
-| ------------- | -------------------------------- | ------------------------------- |
-| Web chat      | chat history, uploaded files     | usually none                    |
-| API           | request payload                  | defined by the application      |
-| CLI agent     | folder, selected files, terminal | defined by the agent settings   |
-| IDE extension | open workspace, highlighted code | defined by the extension        |
-| App connector | app data and app permissions     | defined by connector permission |
+| Mode          | Context                          | Sandbox defined by the |
+| ------------- | -------------------------------- | ---------------------- |
+| Web chat      | chat history, uploaded files     | product          |
+| API           | request payload                  | application      |
+| CLI agent     | folder, selected files, terminal | agent settings   |
+| IDE extension | open workspace, highlighted code | extension        |
+| App connector | app data and app permissions     | host application |
 
 Context determines what the model knows. The sandbox controls what its tools can
 read, write, or run.
@@ -226,21 +229,18 @@ uses a Python script to generate and verify a Leaflet HTML map from GeoJSON.
 
 Models from [frontier labs](https://www.longtermwiki.com/wiki/E820), such as
 [OpenAI](https://openai.com/) and [Anthropic](https://www.anthropic.com/), are
-commonly accessed through hosted products or APIs.
+commonly accessed through cloud-hosted products and APIs.
 [Inference](https://en.wikipedia.org/wiki/Inference) then occurs on the
-provider's infrastructure. Hosted models usually require little setup and offer
-strong capabilities, but data leaves the device and use may incur recurring
-costs.
+provider's infrastructure.
 
-Local models run on hardware under the user's control. They can work offline and
-offer more direct control over data, but require suitable hardware, storage,
-configuration, and maintenance. They are not automatically private: the
-surrounding application may still use telemetry, web search, hosted embeddings,
-or other network services.
+| Model hosting | PROs                                                                      | CONs                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Cloud-hosted  | Little to no setup<br>Strong capabilities                                 | Data leaves the device<br>Usage may incur recurring costs                                                                        |
+| Local         | Runs on user-controlled hardware<br>Can work offline<br>More data control | Requires suitable hardware, configuration, and maintenance<br>Not automatically private when the network-based services are used |
 
-For hosted services, review the exact product's training, retention, residency,
-and deletion policies rather than assuming that all services behave alike. For
-example, OpenAI documents separate
+For cloud-hosted services, review the exact product's training, retention,
+residency, and deletion policies rather than assuming that all services behave
+alike. For example, OpenAI documents separate
 [business-data commitments](https://openai.com/business-data/) and
 [API data controls](https://platform.openai.com/docs/guides/your-data).
 
@@ -260,6 +260,10 @@ Before using AI for a task:
 See also: [CLI primer](../Computing/cli-primer.html),
 [file formats](../Computing/file-formats.html), and
 [git primer](../Collaboration/git-primer.html).
+
+Videos:
+
+- [AI Inference: The Secret to AI's Superpowers](https://www.youtube.com/watch?v=XtT5i0ZeHHE)
 
 ## Problems
 
