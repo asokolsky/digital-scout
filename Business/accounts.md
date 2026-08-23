@@ -15,6 +15,17 @@ An account wrapper controls:
 
 The wrapper is separate from the investment held inside it.
 
+## Taxable Brokerage Account
+
+- Contributions: after-tax money.
+- Employer match: none.
+- Investment menu: broad, including stocks, ETFs, mutual funds, bonds, and
+  others.
+- Early distributions: no retirement-account early distribution penalty.
+- RMDs: none.
+- Main caveat: dividends, interest, and realized capital gains/losses are
+  taxable.
+
 ## Traditional 401(k)
 
 - Contributions: usually pre-tax salary deferrals.
@@ -62,17 +73,6 @@ The wrapper is separate from the investment held inside it.
   depend on Roth ordering and qualification rules.
 - RMDs: no lifetime RMDs for the original owner.
 - Main caveat: MAGI phaseouts and five-year/qualified-distribution rules matter.
-
-## Taxable Brokerage Account
-
-- Contributions: after-tax money.
-- Employer match: none.
-- Investment menu: broad, including stocks, ETFs, mutual funds, bonds, and
-  others.
-- Early distributions: no retirement-account early distribution penalty.
-- RMDs: none.
-- Main caveat: dividends, interest, and realized capital gains/losses are
-  taxable.
 
 ## Quick Takeaways
 
