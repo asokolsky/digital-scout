@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical Cryptography Problems
 parent: Cryptography
 ---
 
-# Practical Problems
+# Practical Cryptography Problems
 
 ## Create and use ssh keys
 

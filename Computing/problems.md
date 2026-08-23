@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical Computing Problems
 parent: Computing
 ---
 
-# Practical Problems
+# Practical Computing Problems
 
 ## Wildcard Interpretation
 

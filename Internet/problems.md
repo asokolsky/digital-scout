@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical Internet Problems
 parent: Internet
 ---
 
-# Practical Problems
+# Practical Internet Problems
 
 ## identify endpoint IP address, default gateway, DHCP server, DNS server
 

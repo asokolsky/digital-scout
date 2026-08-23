@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical Physics Problems
 parent: Physics
 ---
 
-## Practical Problems
+# Practical Physics Problems
 
 ### Dusty rug
 

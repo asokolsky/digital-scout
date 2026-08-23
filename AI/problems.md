@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical AI Problems
 parent: AI
 ---
 
-# Practical Problems
+# Practical AI Problems
 
 ## Compare Interfaces
 

@@ -15,7 +15,11 @@ An account wrapper controls:
 
 The wrapper is separate from the investment held inside it.
 
-## Taxable Brokerage Account
+Terminology:
+
+- RMD: [required minimum distribution](https://en.wikipedia.org/wiki/Required_minimum_distribution)
+
+## (Taxable) Brokerage Account
 
 - Contributions: after-tax money.
 - Employer match: none.
@@ -23,8 +27,8 @@ The wrapper is separate from the investment held inside it.
   others.
 - Early distributions: no retirement-account early distribution penalty.
 - RMDs: none.
-- Main caveat: dividends, interest, and realized capital gains/losses are
-  taxable.
+- Main caveat: dividends, interest, and realized gains may be taxable; realized
+  losses can offset gains and may support a limited deduction or carryforward.
 
 ## Traditional 401(k)
 
@@ -34,8 +38,8 @@ The wrapper is separate from the investment held inside it.
 - Early distributions: generally taxable and may face a 10% additional tax; the
   age-55 separation-from-service exception can apply to qualified plans, but not
   IRAs.
-- RMDs: generally required while the owner is alive; some plans allow delay
-  until retirement.
+- RMDs: generally begin at age 73 or 75, depending on birth year. A current
+  employer's plan may allow a non-5%-owner to delay RMDs until retirement.
 - Main caveat: plan fees and investment menus vary; employer match can outweigh
   limits.
 
@@ -58,7 +62,7 @@ The wrapper is separate from the investment held inside it.
 - Investment menu: broad, subject to IRS and custodian restrictions.
 - Early distributions: before age 59 1/2, generally taxable and may face a 10%
   additional tax unless an exception applies.
-- RMDs: generally required at age 73 under current IRS guidance.
+- RMDs: generally begin at age 73 or 75, depending on birth year.
 - Main caveat: deductibility depends on income, filing status, and workplace
   coverage.
 - Rollover note: a rollover IRA usually inherits the tax character of the account

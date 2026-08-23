@@ -35,7 +35,8 @@ Concepts:
 
 ## Investments
 
-[Investments](investments.md) and [investment accounts](accounts.md).
+[Investments](investments.md), [investment accounts](accounts.md), and
+[practical problems](problems.md).
 
 ## Personal Financing and Taxes
 

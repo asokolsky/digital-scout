@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Practical Problems
+title: Practical Collaboration Problems
 parent: Collaboration
 ---
 
-# Practical Problems
+# Practical Collaboration Problems
 
 ## Git
 

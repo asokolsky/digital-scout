@@ -61,7 +61,9 @@ Observe:
 
 - varying marginal rates - these define how steep the line goes
 - effective tax rate
-- effective tax rate ≤ marginal tax rate.
+- for this progressive ordinary-income example, effective tax rate ≤ marginal
+  tax rate. Credits, surtaxes, phaseouts, and preferentially taxed income can make
+  that shortcut unreliable in a complete tax calculation.
 
 ## Deductions, Standard vs Itemized
 
@@ -71,14 +73,15 @@ gives the larger deduction.
 
 Common itemized deductions:
 
-- State and Local Taxes (SALT): property taxes, state income and sales taxes.
+- State and Local Taxes (SALT): eligible property taxes plus either state and
+  local income taxes or general sales taxes, not both.
   Under current law, the cap is $40,000 for 2025, $40,400 for 2026, 1% higher
   each year through 2029, and $10,000 after 2029. For Married Filing Separately,
   use half the cap. Before 2030, the higher cap phases down by MAGI, but not
   below $10,000.
 - Mortgage interest, generally on up to $750k of acquisition debt for newer mortgages
 - Charitable contributions
-- Medical expenses, if > 7.5% AGI
+- Eligible medical expenses to the extent they exceed 7.5% of AGI
 
 Bunching strategy: if close to itemizing threshold, combine deductions in one year.
 
