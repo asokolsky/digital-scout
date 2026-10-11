@@ -6,15 +6,16 @@ parent: Career
 
 # Promotion
 
-Promotion here is an umbrella term for all the activities you undertake to communicate the value of the product, your professional persona.
+Promotion here is an umbrella term for all the activities you undertake to
+communicate the value of the product, your professional persona.
 
-The goal of the promotion is to project a cohesive image, easily digestible by the target audience.
-
-In the order of the effort required to digest your pitch:
+The goal of the promotion is to project a cohesive image, easily digestible by
+the target audience.
 
 ## Elevator Pitch
 
-Your [elevator pitch](https://en.wikipedia.org/wiki/Elevator_pitch) answers question "Who are you?".
+Your [elevator pitch](https://en.wikipedia.org/wiki/Elevator_pitch) answers the
+question "Who are you?".
 
 You should:
 
@@ -22,20 +23,24 @@ You should:
 - adjust it according to the audience;
 - deliver the answer in an engaging manner.
 
+Ideal outcome: "Tell me more." Be ready to do that too.
+
 ## Resume
 
-You resume:
+Your [resume](https://capd.mit.edu/resources/resumes/) is a marketing document,
+not a [Curriculum Vitae](https://en.wikipedia.org/wiki/Curriculum_vitae).
+For every line, ask: does this help the employer see why they should hire me?
 
-- is a marketing document, not a [Curriculum Vitae](https://en.wikipedia.org/wiki/Curriculum_vitae);
-- when adding anything to it, ask yourself: how does this incrementally improve my communicated product value proposition?
 - Length: 1 page for anybody with \<2 years of experience, \<=2 pages otherwise;
-- I prefer use of highly technical terms. I can see how this may not work for everyone;
-- section Summary/Profile articulates the core of your professional persona;
-- For US: no date of birth, no dates for degrees/education (unless you are still in school), no photos, no family status;
+- Tailor it to the role: emphasize relevant skills and accomplishments.
+- Show what you achieved, with numbers when useful.
+- Use technical terms your audience understands.
+- For U.S. applications: no birth date, no dates for degrees/education (unless
+  you are still in school), no marital status, no photos.
 
 ## LinkedIn
 
-You need to be:
+My take - you need to be:
 
 - present on LinkedIn;
 - be a member in the relevant LinkedIn groups;
@@ -45,7 +50,7 @@ You need to be:
 
 ## GitHub
 
-If you are an engineering type (no matter which) or work for a high-tech company, you need to be:
+Again, my take here. If you are an engineering type (no matter which) or work for a high-tech company, you need to be:
 
 - present on GitHub;
 - have repos. Cloning repos alone is not enough;
@@ -58,27 +63,15 @@ For software engineers, you also need:
 
 ## Stories You Tell
 
-Summary by [Reno Perry](https://www.linkedin.com/in/renoperry/):
+Prepare examples for [interview questions](interview-questions.md). Choose a
+structure that suits the message:
 
-![5 Story Telling Frameworks](story-telling-frameworks.jpg)
+- [STAR](https://en.wikipedia.org/wiki/Situation,_task,_action,_result): situation, task, action, result. Use problem, action, result for a shorter account; include relevant constraints. See [MIT's interview worksheet](https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/).
+- [Minto Pyramid](https://www.barbaraminto.com/): lead with the conclusion, then group the supporting arguments. See [a worked example](https://untools.co/minto-pyramid/).
+- [AIDA](<https://en.wikipedia.org/wiki/AIDA_(marketing)>): attention, interest, desire, action. Give your pitch a clear next step.
+- [Hero's Journey](https://en.wikipedia.org/wiki/Hero%27s_journey): challenge and transformation; useful for longer career stories.
+- [StoryBrand](https://storybrand.com/): make the customer the hero and the business the guide. Adapt your pitch around the employer's problem. See [the framework explained](https://www.creativeo.co/post/storybrand-framework).
 
-### Problem - Constraint - Action - Result
+Illustrated summary shared by [Reno Perry](https://www.linkedin.com/in/renoperry/):
 
-Same as (?) Problem - Action - Result or
-[Situation, task, action, result](https://en.wikipedia.org/wiki/Situation,_task,_action,_result)
-
-### Minto Pyramid
-
-https://untools.co/minto-pyramid/
-
-### Attention - Interest - Desire - Action
-
-https://en.wikipedia.org/wiki/AIDA_(marketing)
-
-### Hero's Journey
-
-https://en.wikipedia.org/wiki/Hero%27s_journey
-
-### Story Brand Framework
-
-https://www.creativeo.co/post/storybrand-framework
+![Five storytelling frameworks](story-telling-frameworks.jpg)

@@ -137,11 +137,11 @@ be hosted by OpenAI or by external services.
 
 | Mode          | Context                          | Sandbox defined by the |
 | ------------- | -------------------------------- | ---------------------- |
-| Web chat      | chat history, uploaded files     | product          |
-| API           | request payload                  | application      |
-| CLI agent     | folder, selected files, terminal | agent settings   |
-| IDE extension | open workspace, highlighted code | extension        |
-| App connector | app data and app permissions     | host application |
+| Web chat      | chat history, uploaded files     | product                |
+| API           | request payload                  | application            |
+| CLI agent     | folder, selected files, terminal | agent settings         |
+| IDE extension | open workspace, highlighted code | extension              |
+| App connector | app data and app permissions     | host application       |
 
 Context determines what the model knows. The sandbox controls what its tools can
 read, write, or run.
